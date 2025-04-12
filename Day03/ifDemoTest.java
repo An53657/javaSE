@@ -1,6 +1,6 @@
-package Day03;  
-// 这是一个Java程序，演示了如何使用if语句进行条件判断
-public class ifDemoTest {
+package Day03;
+
+public class  ifDemoTest {
     public static void main(String[] args) {
         //盘点红绿灯
         //汽车无人驾驶，用到大量判断。
@@ -17,16 +17,12 @@ public class ifDemoTest {
         //判断
         if (isLightGreen) {
             System.out.println("gogogo");
-
-        }
-        if (isLightYellow) {
+        }else if (isLightYellow) {
             System.out.println("slow");
-        }
-        if (isLightRed) {
+        }else if (isLightRed) {
             System.out.println("stop");
         }
         //if语句的执行顺序是从上到下，依次判断
         //当满足条件时，if语句就结束了，后面的就不再判断
     }
-
 }

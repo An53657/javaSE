@@ -8,7 +8,7 @@
 //会员3：享受7折优惠；
 //非会员：不享受任何折扣优惠；
 
-    package Day03.forDem;
+    package Day03.ifDemo;
 import java.util.Scanner;//导入java.util.Scanner类
 public class ifDemoTestTree06 {
     public static void main(String[]args){//主入口

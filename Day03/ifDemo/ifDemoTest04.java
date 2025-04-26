@@ -6,7 +6,7 @@
 //跟据不同情况，给出不同的提示信息：
 //如果票号为奇数，那么打印·“”
 //如果票号为偶数，那么打印·“右边座位”
-package Day03;
+package Day03.ifDemo;
 
 import java.util.Scanner;
 

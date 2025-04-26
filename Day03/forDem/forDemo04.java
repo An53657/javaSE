@@ -1,7 +1,7 @@
 /* 需求
  * 在实际开发中，如果要获取一个范围中的每一个数据时，也会用的循环
  */
-package Day03.switchDemo.forDem;
+package Day03.forDem;
 
 public class forDemo04 {
     public static void main(String[] args) {

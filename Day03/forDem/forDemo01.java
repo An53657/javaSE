@@ -1,5 +1,5 @@
 //需求：打印5次HollWorld
-package Day03.switchDemo.forDem;
+package Day03.forDem;
 
 public class forDemo01 {
     public static void main(String[] args) {

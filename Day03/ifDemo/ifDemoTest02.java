@@ -2,7 +2,7 @@
 //键盘录入一个整数表示钱包，
 //如果大于100就吃网红餐厅，
 //否则吃普通餐厅。
-package Day03;
+package Day03.ifDemo;
 import java.util.Scanner;
 
 public class ifDemoTest02 {

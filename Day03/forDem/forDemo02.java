@@ -1,7 +1,7 @@
 //需求：
 //打印1~5
 //打印5~1
-package Day03.switchDemo.forDem;
+package Day03.forDem;
 
 public class forDemo02 {
     public static void main(String[] args) {

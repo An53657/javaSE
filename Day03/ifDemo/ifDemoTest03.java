@@ -4,7 +4,7 @@
 //键盘录入一个整数表示支付的金额，
 //如果支付的金额大于等于600元，输出“支付成功”，否则输出“支付失败”。
 //--------------------------------------if语句第二个格式，第二次练习--------------------------------------------------------
-package Day03;
+package Day03.ifDemo;
 import java.util.Scanner;//导入Scanner类
 public class ifDemoTest03 {
     public static void main(String[] args){//程序主入口

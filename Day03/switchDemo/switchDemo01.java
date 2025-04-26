@@ -7,7 +7,7 @@ public class switchDemo01 {
         //兰州拉面 武汉热干面 北京炸酱面 陕西油泼面
 
         //定义一个变量，表示心中想吃的面
-        String noodles = "吃兰州拉面";
+        String noodles = "武汉热干面";
         //拿这个面利用switch跟四种面进行匹配。
         switch (noodles){
              case "兰州拉面":

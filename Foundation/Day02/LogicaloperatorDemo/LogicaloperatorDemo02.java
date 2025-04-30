@@ -1,4 +1,4 @@
-package Day03.LogicaloperatorDemo;
+package Day02.LogicaloperatorDemo;
 
 public class LogicaloperatorDemo02 {
     public static void main(String[] args) {

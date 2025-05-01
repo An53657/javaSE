@@ -5,7 +5,7 @@
  */
 package Day05.Text;
 
-public class LoopText02 {
+public class LoopTest02 {
     public static void main(String[] args) {
         //分析 十位是 7 个位是7 7的倍数
         //要拿到~100之间的数

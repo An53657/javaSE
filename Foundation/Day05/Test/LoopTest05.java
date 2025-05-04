@@ -1,5 +1,5 @@
 /*  获取随机数*/
-package Day05.Text;
+package Day05.Test;
 
 //首先声明这个类，表示要用了
 import java.util.Random;//这个类可以生成随机数

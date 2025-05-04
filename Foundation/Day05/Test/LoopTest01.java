@@ -1,7 +1,7 @@
 /*  需求键盘路人一个大于2的整数X 计算并返回X的平方根
  * 结果只保留整数部分，小数将舍弃
  */
-package Day05.Text;
+package Day05.Test;
 import java.util.Scanner;
 public class LoopTest01 {
     public static void main(String[] args) {

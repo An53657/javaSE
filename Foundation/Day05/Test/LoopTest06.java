@@ -1,7 +1,7 @@
 /*  需求:
  * 生成 1~100的随机数
  */
-package Day05.Text;
+package Day05.Test;
 
 import java.util.Random;
 

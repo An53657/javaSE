@@ -2,7 +2,7 @@
 *  定义一个数组，存储1，2，3，4，5
  * 遍历数组得到每一个元素 并求数组里面所有数据和和
  */
-package Day05.Text;
+package Day05.Test;
 
 public class Arrtest01 {
     public static void main(String[] args) {

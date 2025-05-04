@@ -5,7 +5,7 @@
  * 1.如果是奇数，当前扩大2倍
  * 2.如果是偶数，则将当前的数字变成二分之一
  */
-package Day05.Text;
+package Day05.Test;
 
 public class ArrDemo03 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Day05.Text;
+package Day05.Test;
 
 public class ArrDemo04 {
     

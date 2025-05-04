@@ -2,7 +2,7 @@
  * 定一个数组，存储1,2,3,3,4,5,6,7,8,9.10
  * 遍历数组的每一个元素，统计数组里面有多少个能被3整数的数
  */
-package Day05.Text;
+package Day05.Test;
 
 
 public class arrTest02 {

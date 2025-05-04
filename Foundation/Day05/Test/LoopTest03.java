@@ -5,7 +5,7 @@
  * 4 = 2 * 2 1 * 4
  * 6 = 1 * 6 2 * 3 
 */
-package Day05.Text;
+package Day05.Test;
 
 import java.util.Scanner;
 

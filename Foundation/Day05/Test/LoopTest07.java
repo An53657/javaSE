@@ -10,7 +10,7 @@
  * 用点券抽水晶
  * 保底360次没抽到 
 */
-package Day05.Text;
+package Day05.Test;
 
 import java.util.Random;
 import java.util.Scanner;

@@ -3,7 +3,7 @@
  * 说 过
  * 需求 用程序打印1~100之间满足逢七过的数据
  */
-package Day05.Text;
+package Day05.Test;
 
 public class LoopTest02 {
     public static void main(String[] args) {

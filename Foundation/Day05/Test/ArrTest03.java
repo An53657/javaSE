@@ -2,7 +2,7 @@
  * 用动态初始化数组，定义一个数组来存班级里50名学生的姓名
  * 姓名未知 学生报道了，在进行添加
  */
-package Day05.Text;
+package Day05.Test;
 
 public class ArrTest03 {
     public static void main(String[] args) {

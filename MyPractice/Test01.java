@@ -4,7 +4,7 @@ package MyPractice;
 
 import java.util.Scanner;
 
-public class CalculateFibonacciSequence {
+public class Test01 {
     public static void main(String[] args) {
         // 创建 Scanner 对象用来从键盘读取输入
         Scanner scanner = new Scanner(System.in);

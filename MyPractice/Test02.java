@@ -2,7 +2,7 @@ package MyPractice;
 // 这是一个Java程序，演示了如何使用if语句进行条件判断
 import java.util.Scanner;
 // 1.导入java.util.Scanner类
-public class ifDemoPractctice01 {
+public class Test02 {
     public void main(String[] args){
         //键盘录入
        Scanner sc = new Scanner(System.in);

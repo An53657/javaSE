@@ -2,7 +2,7 @@
         
  * 
 */
-package Day06;
+package Day06.Method;
 
 public class MethodDemo01 {
     public static void main(String[] args) {

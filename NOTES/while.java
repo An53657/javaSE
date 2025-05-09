@@ -1,4 +1,4 @@
-package NOTES;
+
 /*                                          for循环&while循环对比
  * for循环格式                                          初始化语句；
  * for(初始化语句;条件判断语句;条件控制语句)               while(条件判断语句){

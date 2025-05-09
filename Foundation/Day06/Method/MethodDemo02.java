@@ -1,7 +1,7 @@
 /* 目标 利用最简单的格式 完成当前练习
  * 
  */
-package Day06;
+package Day06.Method;
 
 public class MethodDemo02 {
     public static void main(String[] args) {

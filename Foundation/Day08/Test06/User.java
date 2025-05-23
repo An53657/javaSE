@@ -1,4 +1,4 @@
-package Day08.Test;
+package Day08.Test06;
 
 public class User {
     //属性 成员变量

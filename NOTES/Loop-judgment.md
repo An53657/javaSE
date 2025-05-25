@@ -1,4 +1,4 @@
-# 循环判断 Loop-judgment
+# 判断循环 Loop-judgment
 ## 顺序机构
 
 ---

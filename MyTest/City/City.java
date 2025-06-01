@@ -1,4 +1,4 @@
-package MyPractice.City;
+package MyTest.City;
 
 public class City {
      private String name;

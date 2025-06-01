@@ -1,6 +1,6 @@
 //计算斐波那契数列的前 n 项
-//用循环语句实现
-package MyPractice;
+//用循环Test01;
+package MyTest;
 
 import java.util.Scanner;
 

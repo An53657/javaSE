@@ -1,5 +1,5 @@
 //计算水仙花数的程序
-package MyTest;
+package MyTest.Test;
 
 import java.util.Scanner;
 

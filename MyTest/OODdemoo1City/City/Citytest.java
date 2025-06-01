@@ -1,4 +1,4 @@
-package MyTest.City;
+package MyTest.OODdemoo1City.City;
 
 public class Citytest {
     public static void main(String[] args) {

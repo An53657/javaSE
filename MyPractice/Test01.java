@@ -9,7 +9,7 @@ public class Test01 {
         // 创建 Scanner 对象用来从键盘读取输入
         Scanner scanner = new Scanner(System.in);
         System.out.print("请输入斐波那契数列的项数：");
-        
+
         // 读取用户输入的项数
         int n = scanner.nextInt();
 
@@ -19,7 +19,7 @@ public class Test01 {
             scanner.close();
             return;
         }
-        
+
         // 创建一个长度为 n 的数组来存储斐波那契数列
         int[] fibonacci = new int[n];
 
@@ -29,19 +29,19 @@ public class Test01 {
         if (n > 1) {
             fibonacci[1] = 1;
         }
-        
+
         // 从第3项开始，通过循环计算每一项的值（当前项等于前两项之和）
         for (int i = 2; i < n; i++) {
             fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
         }
-        
+
         // 输出结果：依次打印斐波那契数列中的数字
         System.out.print("Fibonacci Sequence: ");
         for (int i = 0; i < n; i++) {
             System.out.print(fibonacci[i] + " ");
         }
         System.out.println();
-        
+
         // 关闭 Scanner，释放资源
         scanner.close();
     }

@@ -10,11 +10,12 @@ package Day06.Method;
 
 public class MethodDemo04 {
     public static void main(String[] args) {
-        //调用方法
+        // 调用方法
         getSum(0, 0);
     }
-    //定义一个带参数的方法
-    public static void getSum(int number0,int number1){
+
+    // 定义一个带参数的方法
+    public static void getSum(int number0, int number1) {
         int result = number0 + number1;
         System.out.println(result);
     }

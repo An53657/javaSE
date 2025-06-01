@@ -11,22 +11,22 @@ package Day04.ifDemo;
 import java.util.Scanner;
 
 public class ifDemoTest04 {
-    public static void main(String[] args){//主方法
-        //分析：
-       //键盘录入一个整数表示电影
-        Scanner sc = new  Scanner(System.in);//创建键盘录入对象
-       System.out.println("请输入票号");//提示用户输入票号
-       int ticket = sc.nextInt();//接收用户输入的票号，类型为int
-       sc.close();//关闭键盘录入，防止内存泄露。
+    public static void main(String[] args) {// 主方法
+        // 分析：
+        // 键盘录入一个整数表示电影
+        Scanner sc = new Scanner(System.in);// 创建键盘录入对象
+        System.out.println("请输入票号");// 提示用户输入票号
+        int ticket = sc.nextInt();// 接收用户输入的票号，类型为int
+        sc.close();// 关闭键盘录入，防止内存泄露。
 
-       //判断票号是奇数还是偶数。
-       //只有当ticket在0~100之间，才是真实有效的票。
-       if (ticket >= 0 && ticket <= 100){//做一个合法性判断  ticket 大于等于0并且小于等于100
-        if(ticket % 2 == 1){//ticket 除以2的余数为1，说明是奇数
-            System.out.println("左边座位");
-           }else {
-            System.out.println("右边座位");
-           }
-       }
+        // 判断票号是奇数还是偶数。
+        // 只有当ticket在0~100之间，才是真实有效的票。
+        if (ticket >= 0 && ticket <= 100) {// 做一个合法性判断 ticket 大于等于0并且小于等于100
+            if (ticket % 2 == 1) {// ticket 除以2的余数为1，说明是奇数
+                System.out.println("左边座位");
+            } else {
+                System.out.println("右边座位");
+            }
+        }
     }
 }

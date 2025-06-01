@@ -8,27 +8,29 @@
 //会员3：享受7折优惠；
 //非会员：不享受任何折扣优惠；
 
-    package Day04.ifDemo;
+package Day04.ifDemo;
+
 import java.util.Scanner;//导入java.util.Scanner类
+
 public class ifDemoTestTree06 {
-    public static void main(String[]args){//主入口
-        //记录商品的总价值
+    public static void main(String[] args) {// 主入口
+        // 记录商品的总价值
         int Price = 1000;
-        //键盘路人入一个商品的总价值
+        // 键盘路人入一个商品的总价值
         Scanner sc = new Scanner(System.in);
         System.out.println("会员等级");
         int VIP = sc.nextInt();
-        sc.close();//关闭键盘录入
-        //判断会员等级，并计算出实际支付金额
-        if (VIP == 1){
-            System.out.println("实际支付金额为"+ (Price*0.9));
-        }else if (VIP == 2){
-            System.out.println("实际支付金额为"+ (Price*0.8));
-        }else if (VIP == 3){
-            System.out.println("实际支付金额为"+ (Price*0.7));
-        }else {
-            System.out.println("实际支付金额为"+ Price);
+        sc.close();// 关闭键盘录入
+        // 判断会员等级，并计算出实际支付金额
+        if (VIP == 1) {
+            System.out.println("实际支付金额为" + (Price * 0.9));
+        } else if (VIP == 2) {
+            System.out.println("实际支付金额为" + (Price * 0.8));
+        } else if (VIP == 3) {
+            System.out.println("实际支付金额为" + (Price * 0.7));
+        } else {
+            System.out.println("实际支付金额为" + Price);
         }
-        
-}
+
+    }
 }

@@ -14,31 +14,31 @@ import java.util.Scanner;
 
 public class switchDemo04 {
     public static void main(String[] args) {
-        //键盘录入一个整数提示我们的选择
+        // 键盘录入一个整数提示我们的选择
 
         Scanner sc = new Scanner(System.in);
         System.out.println("请输入的选择");
         int choose = sc.nextInt();
         sc.close();
 
-        //根据不同的选择执行不同的代码
+        // 根据不同的选择执行不同的代码
 
-        switch(choose){
-        case 1:
-        System.out.println("机票查询");
-        break;
-        case 2:
-        System.out.println("机票预定");
-        break;
-        case 3:
-        System.out.println("机票改签");
-        break;
-        case 4:
-        System.out.println("退出服务");
-        break;
-        default:
-        System.out.println("退出服务");
-        break;
+        switch (choose) {
+            case 1:
+                System.out.println("机票查询");
+                break;
+            case 2:
+                System.out.println("机票预定");
+                break;
+            case 3:
+                System.out.println("机票改签");
+                break;
+            case 4:
+                System.out.println("退出服务");
+                break;
+            default:
+                System.out.println("退出服务");
+                break;
         }
     }
 }

@@ -26,7 +26,7 @@ public class Test10 {
       }
       ////遍历数组
       //for(int i = 0;i< arr.length;i++){
-      //  System.out.println(arr[i]);
+      //  System.out.println(arr[i]);F
       //}
       
       //1.求出所有数据的和

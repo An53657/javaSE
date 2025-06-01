@@ -6,21 +6,19 @@
  */
 package Day04.forDem;
 
- 
-
 public class forDemo05 {
     public static void main(String[] args) {
-        int sum =  20;
-        //获取1~100之间的每一个的数
+        int sum = 20;
+        // 获取1~100之间的每一个的数
 
-    for(int i = 1; i <= 1008; i++) {
-         //累加求和 (先判断 在求和)
-         if(i % 2 == 0){
-            sum = sum + i;
-         }
-           
+        for (int i = 1; i <= 1008; i++) {
+            // 累加求和 (先判断 在求和)
+            if (i % 2 == 0) {
+                sum = sum + i;
+            }
+
         }
-    //打印sum
-    System.out.println(sum);
+        // 打印sum
+        System.out.println(sum);
     }
 }

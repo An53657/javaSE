@@ -12,14 +12,14 @@ import java.util.Scanner;
 
 public class switchDemo02 {
     public static void main(String[] args) {
-        //1.键盘录入一个星期数，
+        // 1.键盘录入一个星期数，
 
         Scanner sc = new Scanner(System.in);
         System.out.println("请输入星期数");
         int week = sc.nextInt();
         sc.close();
-        //2.利用switch对星期进行匹配。
-        switch (week){
+        // 2.利用switch对星期进行匹配。
+        switch (week) {
             case 1:
                 System.out.println("跑步");
                 break;

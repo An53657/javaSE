@@ -8,18 +8,18 @@
 package Day04.forDem;
 
 public class forDemo03 {
-    
+
     public static void main(String[] args) {
-        //分析
-        //1.因为我们需要重复执行某段代码，所以需要使用循环解决
-        //循环次数5次
-        //开始条件 1
-        //结束条件 5 
-        for(int i = 1 ;i <= 5;i++){
+        // 分析
+        // 1.因为我们需要重复执行某段代码，所以需要使用循环解决
+        // 循环次数5次
+        // 开始条件 1
+        // 结束条件 5
+        for (int i = 1; i <= 5; i++) {
             System.out.println("重连中！！");
         }
-        for(int i = 1;i <=5;i++){
-            System.out.println("第" + i + "次重连中"); 
+        for (int i = 1; i <= 5; i++) {
+            System.out.println("第" + i + "次重连中");
         }
     }
 }

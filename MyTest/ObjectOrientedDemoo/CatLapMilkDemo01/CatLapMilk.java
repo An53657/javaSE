@@ -1,28 +1,25 @@
-package MyTest.OODdemoo1City.CatLapMilk;
-
+package MyTest.ObjectOrientedDemoo.CatLapMilkDemo01;
 
 import MyTest.String.StringDemo01;
 
-
 public class CatLapMilk {
-    //成员变量
+    // 成员变量
     // 定义一个猫娘类
     private String name;// 名字
     private String clothes;// 服装
     private String appearance;// 外貌
     private String character;// 性格·
-    private int height; // 身高
 
     // 构造方法 无参构造 有参构造
     public CatLapMilk() {
     }
 
-    public CatLapMilk(String name, String clothes, String appearance, String character, int height) {
+    public CatLapMilk(String name, String clothes, String appearance, String character) {
         this.name = name;
         this.clothes = clothes;
         this.appearance = appearance;
         this.character = character;
-        this.height = height;
+
     }
 
     // get set 方法了
@@ -58,16 +55,14 @@ public class CatLapMilk {
         return character;
     }
 
-    public void setHeight(int height) {
-        this.height = height;
+    // 成员方法
+    public void playGema() {
+        System.out.println(StringDemo01.PLAYGAME_BLUEARCHE);
+
     }
 
-    public int getHeight() {
-        return height;
-    }
+    public String interaction() {
+        return name + "";
 
-  //成员方法
-  public void playGema(){
-    System.out.println(StringDemo01.PLAYGAME_BLUEARCHE);
-}
+    }
 }

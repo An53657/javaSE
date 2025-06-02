@@ -4,11 +4,11 @@ import MyTest.String.StringDemo01;
 
 public class CatLapMilk {
     // 成员变量
-    // 定义一个猫娘类
-    private String name;// 名字
-    private String clothes;// 服装
-    private String appearance;// 外貌
-    private String character;// 性格·
+    // 定义一个类
+    private String name;
+    private String clothes;
+    private String appearance;
+    private String character;
 
     // 构造方法 无参构造 有参构造
     public CatLapMilk() {

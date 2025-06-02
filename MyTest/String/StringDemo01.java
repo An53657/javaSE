@@ -13,6 +13,7 @@ public static final String NAME_ONE = "姓名";
  public static final String CHARACTER_ONE = "性格";
  public static final String CHARACTER = "坚强";
  //成员方法
+ public static final String DOING = "在做什么";
  public static final String PLAYGAME_CATBALL = "在玩猫球";
  public static final String PLAYGAME_BLUEARCHE = "在玩碧蓝档案";
 public static final  String PLAYGANW_MINECRAFT = "在玩我的世界";

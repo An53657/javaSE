@@ -21,6 +21,7 @@ public static final  String PLAYGANW_MINECRAFT = "在玩我的世界";
  public static final String EAT = "在吃饭";
  public static final String DRINK = "在喝水";
  public static final String INTERACTION_STROKE = "主人在摸头";
+ public static final String MD5 = "096a0734c368ebcd3d5a8165753f6ac5";
  
 
 }

@@ -18,8 +18,7 @@ public class CatLapMilkTest {
         // //方法
 
         // 定义一个变量存储干的事情
-        String thing = cat1.interaction();
-        thing = StringDemo01.PLAYGANW_MINECRAFT;
+        String thing = StringDemo01.PLAYGANW_MINECRAFT;
         System.out.println(StringDemo01.DOING + ":" + thing);
 
     }

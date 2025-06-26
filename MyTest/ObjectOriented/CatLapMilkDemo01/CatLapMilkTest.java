@@ -1,4 +1,4 @@
-package MyTest.ObjectOrientedDemo.CatLapMilkDemo01;
+package MyTest.ObjectOriented.CatLapMilkDemo01;
 
 import MyTest.String.StringDemo01;
 

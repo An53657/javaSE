@@ -1,4 +1,4 @@
-package MyTest.ObjectOrientedDemo.CityDemo02;
+package MyTest.ObjectOriented.CityDemo02;
 
 public class Citytest {
     public static void main(String[] args) {

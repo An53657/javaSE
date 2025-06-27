@@ -9,13 +9,17 @@
   2. 什么是API帮助文档？
   帮助开发人员更好的使用API和查询API的工具。
 
-## 二.String概述
+---
+
+## 一.String概述
 
 1. String是java定义好的一个类，定义在java.lang包里的，所以使用时不需要导包。
 2. java程序所有字符串文字（如"123"）都被实为此类的对象。
 3. 字符串不可改变，他们的值在创建后不不能被改改。
 
-## 三.创建String对象的两中方式
+---
+
+## 1.创建String对象的两中方式
 
 1. 直接赋值的方法
 
@@ -28,7 +32,9 @@
        public String(char [] chs) 根据字符数组， 创建字符串对象
        public String(byte [] chs) 根据字节数组，创建字符串对象
 
-## 四.字符串的比较
+---
+
+## 2.字符串的比较
 
 1. ==比的是什么？
 基本数据类型：比的是具体的值
@@ -38,21 +44,33 @@
  boolean equals方法(要比较都是字符串) 完全一样才是true，否则false
  boolean equalsslgnoreCase(要比较的字符串) 忽略大小写
 
-## 五.遍历字符串
+---
 
-  public char charAt(int index)，根据索引返回字符
-  public int length 返回·字符串的长度
+## 3.遍历字符串
 
-  数组长度 数组名.length
-  字符长度 字符串对象.lenght()
+    public char charAt(int index)，根据索引返回字符
+    public int length 返回·字符串的长度
+  
+    数组长度 数组名.length
+    字符长度 字符串对象.lenght()
 
-  截取字符串
-  punlic substring(int beginlndex, int endlndex)截取
-  注意点包头不包尾 包在不包右
-  只有返回值才是截取的小段
+---
 
-  String substring(int begindex)截取到末尾
+## 4.截取字符串
 
-  string reqlace(旧值，新值) 替换
-  注意
-    只有返回值才是替换的结果
+    punlic substring(int beginlndex, int endlndex)截取
+    注意点包头不包尾 包在不包右
+    只有返回值才是截取的小段
+    String substring(int begindex)截取到末尾
+
+---
+
+## 5.替换字符串
+
+    string reqlace(旧值，新值) 替换
+    注意
+      只有返回值才是替换的结果
+---
+
+## 二. Stringbuider
+  

@@ -45,3 +45,14 @@
 
   数组长度 数组名.length
   字符长度 字符串对象.lenght()
+
+  截取字符串
+  punlic substring(int beginlndex, int endlndex)截取
+  注意点包头不包尾 包在不包右
+  只有返回值才是截取的小段
+
+  String substring(int begindex)截取到末尾
+
+  string reqlace(旧值，新值) 替换
+  注意
+    只有返回值才是替换的结果

@@ -6,7 +6,7 @@
 //首先还是会是拿小括号里的值跟下一个case值匹配
 //如果匹配上了，就会执行对应的语句体，如果此时发现了break，那么结束整个switch语句，
 //如果没有发现break,那么程序会继续写一个case的语句体，一直break,或是右大括号为止
-package Day04.switchDemo;
+package Day04.switchdemo;
 
 import java.util.Scanner;
 

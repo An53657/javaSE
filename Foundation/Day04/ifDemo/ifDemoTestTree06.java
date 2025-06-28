@@ -8,7 +8,7 @@
 //会员3：享受7折优惠；
 //非会员：不享受任何折扣优惠；
 
-package Day04.ifDemo;
+package Day04.ifdemo;
 
 import java.util.Scanner;//导入java.util.Scanner类
 

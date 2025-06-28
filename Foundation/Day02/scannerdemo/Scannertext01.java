@@ -1,4 +1,4 @@
-package Day02;
+package Day02.scannerdemo;
 //键盘输入数字求和
 //1.导入java.util.Scanner类
 import java.util.Scanner;

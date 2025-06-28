@@ -5,7 +5,7 @@
 //80~89分的，变形金刚一个。
 //80分以下的，帮父母做一天家务。
 
-package Day04.ifDemo;
+package Day04.ifdemo;
 
 import java.util.Scanner;//导入java.util.Scanner类
 

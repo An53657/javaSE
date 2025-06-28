@@ -1,7 +1,7 @@
 /* 目标 利用方法最简单的格式完成练习
  * 需求 在方法里面定义两个变量并求和打印
  */
-package Day06.Method;
+package Day06.method;
 
 public class MethodDemo03 {
     public static void main(String[] args) {

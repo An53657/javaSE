@@ -1,6 +1,6 @@
 //以知正确的用户名和密码，请用报编程模拟用户登录，总共给三次机会，登录之后给处相应提示
 
-package Day10.StringDemo;
+package Day10.stringdemo;
 
 import java.util.Scanner;
 

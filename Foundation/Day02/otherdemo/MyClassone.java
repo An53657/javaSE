@@ -1,4 +1,4 @@
-package Day02;
+package Day02.otherdemo;
 
 // Java类的定义，类名为MyClassone
 /*public class MyClassone {

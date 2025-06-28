@@ -1,7 +1,7 @@
 /* 在实际开发中，没有程序一只循环，
  * 在循环的过程中，跳转的其他语句上执行
  */
-package Day05.SkipIoopDemo;
+package Day05.SkipIoopdemo;
 
 public class SkipIoopDemo02 {
     public static void main(String[] args) {

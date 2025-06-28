@@ -1,5 +1,5 @@
 //需求：键盘录入一个字符串，使用程序实现在控制台遍历该字符串
-package Day10.StringDemo;
+package Day10.stringdemo;
 
 import java.util.Scanner;
 

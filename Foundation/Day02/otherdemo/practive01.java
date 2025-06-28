@@ -1,4 +1,4 @@
-package Day02; //定义包名，表示该类属于Java.day02包
+package Day02.otherdemo; //定义包名，表示该类属于Java.day02包
 /*     //class是类的关键字，后面是类的名字
 //类名的命名规则：首字母大写，驼峰命名法
 public class practive01 {

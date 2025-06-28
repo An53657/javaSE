@@ -4,7 +4,7 @@
  * 此时需要循环和其他语句结合使用
  * 比如求1~100之间的偶数的和
  */
-package Day04.forDem;
+package Day04.fordem;
 
 public class forDemo05 {
     public static void main(String[] args) {

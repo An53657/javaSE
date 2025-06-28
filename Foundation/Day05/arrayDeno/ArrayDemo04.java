@@ -7,7 +7,7 @@
  * MAX初始化的值一定是数组里的值
  * 3.循环开始条件不一定是0
  * */
-package Day05.arrayDeno;
+package Day05.arraydeno;
 
 public class ArrayDemo04 {
     public static void main(String[] args) {

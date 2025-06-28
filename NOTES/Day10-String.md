@@ -72,5 +72,19 @@
       只有返回值才是替换的结果
 ---
 
-## 二. Stringbuider
-  
+## 二. StringBuider
+1. 什么是StringBuilder
+  StrigBuilder可以看做一个容器，创建之后内容是可变的
+  作用：可以提供字符串的操作效率
+
+       StringBuilder构造方法
+       方法名                     说明
+       public StringBulider()     创建一个空白可变字符串对象 不含有任何内容
+       StringBuilder(String str)  根据字符串的内容 来创建可变字符串对象
+      
+       StringBuilder常用方法
+       方法名                                   说明
+       public StringBuilder append (任意类型)   添加对象 并返回对象本身
+       public StringBuilder reverser() 翻转容器中的内容
+       public int length()             返回长度(支付出现的个数)
+       public String toString()  通过toString()就可以实现把StringBuilder转换String

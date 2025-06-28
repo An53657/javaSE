@@ -2,7 +2,7 @@
  * 假如我有足够大的纸，它的厚度是0.1mm.
  * 请问，我叠多少次，会有折成珠穆朗玛峰的高度？
  */
-package Day04.whileDemo;
+package Day04.whiledemo;
 
 public class while02 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Day02; 
+package Day02.scannerdemo; 
 //键盘录入数据
 //1.导入java.util.Scanner类
 //书写要求：要写在类定义的上面

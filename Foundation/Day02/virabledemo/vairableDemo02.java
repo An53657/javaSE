@@ -1,4 +1,4 @@
-package Day02;
+package Day02.virabledemo;
 //基本数据类型的使用
 
 //byte、short、int、long、float、double类型的使用

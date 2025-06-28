@@ -1,4 +1,4 @@
-package Day02;
+package Day02.otherdemo;
 
 public class Demo01 {
     // 字表符使用

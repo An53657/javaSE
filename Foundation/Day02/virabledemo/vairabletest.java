@@ -1,4 +1,4 @@
-package Day02;
+package Day02.virabledemo;
 /*示例
 public class vairabletest {
     public static void main(String[] qrggs ){

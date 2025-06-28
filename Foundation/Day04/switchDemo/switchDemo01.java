@@ -1,5 +1,5 @@
 // // 这是一个Java程序，演示了如何使用switch语句进行条件判断
-package Day04.switchDemo;
+package Day04.switchdemo;
 
 public class switchDemo01 {
     public static void main(String[] args) {

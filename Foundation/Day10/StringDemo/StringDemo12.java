@@ -1,5 +1,5 @@
 //敏感词替换 简单的敏感词替换
-package Day10.StringDemo;
+package Day10.stringdemo;
 
 public class StringDemo12 {
     public static void main(String[] args) {

@@ -1,5 +1,5 @@
 /*  无限循环格式 */
-package Day05.infiniteIoopDemo;
+package Day05.infiniteIoopdemo;
 
 public class infiniteIoopDemo01 {
     public static void main(String[] args) {

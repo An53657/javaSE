@@ -1,4 +1,4 @@
-package Day08.Test01;
+package Day08.test01;
 
 public class Phone {
     // 属性

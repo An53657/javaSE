@@ -1,4 +1,4 @@
-package Day02;
+package Day02.virabledemo;
 
 //定义包名，表示该类属于Java.day02包
 public class virableDemo05 {

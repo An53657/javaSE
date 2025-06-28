@@ -1,5 +1,5 @@
 //需求 手机号屏蔽
-package Day10.StringDemo;
+package Day10.stringdemo;
 
 public class StringDemo10 {
     public static void main(String[] args) {

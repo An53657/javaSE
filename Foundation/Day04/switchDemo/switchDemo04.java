@@ -8,7 +8,7 @@
  * 3.机票改签
  * 4.退出服务
  * 其他按键也是退出服务，使用switc语句*/
-package Day04.switchDemo;
+package Day04.switchdemo;
 
 import java.util.Scanner;
 

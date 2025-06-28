@@ -6,7 +6,7 @@
  * 方法名(参数1,参数2,..){....}
  * 
  */
-package Day06.Method;
+package Day06.method;
 
 public class MethodDemo04 {
     public static void main(String[] args) {

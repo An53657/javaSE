@@ -1,7 +1,7 @@
 //需求：
 //打印1~5
 //打印5~1
-package Day04.forDem;
+package Day04.fordem;
 
 public class forDemo02 {
     public static void main(String[] args) {

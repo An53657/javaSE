@@ -1,7 +1,7 @@
 /* 目标 要能区分什时候需要用到返回值的方法
  *  需求 定义方法 比较两个长方形面积
  */
-package Day06.Method;
+package Day06.method;
 
 public class MethodDemo07 {
     public static void main(String[] args) {

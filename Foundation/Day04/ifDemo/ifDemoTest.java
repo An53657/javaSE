@@ -1,4 +1,4 @@
-package Day04.ifDemo;
+package Day04.ifdemo;
 
 public class ifDemoTest {
     public static void main(String[] args) {

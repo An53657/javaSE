@@ -1,5 +1,5 @@
 //利用while循环打印1~100
-package Day04.whileDemo;
+package Day04.whiledemo;
 
 public class while01 {
     public static void main(String[] args) {

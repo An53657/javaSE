@@ -1,4 +1,4 @@
-package Day10.StringDemo;
+package Day10.stringdemo;
 
 public class StringDeemo02 {
     public static void main(String[] args) {

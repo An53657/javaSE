@@ -3,7 +3,7 @@
  * 统计这个范围中
  * 即能被3整除，有能被5整除的数字有多少个
    */
-package Day04.forDem;
+package Day04.fordem;
 
 import java.util.Scanner;
 

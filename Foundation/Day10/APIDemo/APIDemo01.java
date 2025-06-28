@@ -1,4 +1,4 @@
-package Day10.APIDemo;
+package Day10.apidemo;
 //导包 Scanner 一个键盘录入
 import java.util.Scanner;
 

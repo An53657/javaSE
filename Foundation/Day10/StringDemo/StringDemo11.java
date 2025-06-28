@@ -1,5 +1,5 @@
 //需求 身份证信息查询
-package Day10.StringDemo;
+package Day10.stringdemo;
 
 public class StringDemo11 {
     public static void main(String[] args) {

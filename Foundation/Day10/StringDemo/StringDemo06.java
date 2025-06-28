@@ -1,5 +1,5 @@
 //需求：键盘录入一个字符串 统计该字符串中大写字母 小写字母 数字字符出现的次数
-package Day10.StringDemo;
+package Day10.stringdemo;
 
 import java.util.Scanner;
 

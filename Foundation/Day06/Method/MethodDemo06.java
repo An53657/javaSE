@@ -1,7 +1,7 @@
 /*  需求 定义一个方法 求一家商场每个季度的营业额
  * 根据方法计算出全年营业额
  */
-package Day06.Method;
+package Day06.method;
 
 public class MethodDemo06 {
     public static void main(String[] args) {

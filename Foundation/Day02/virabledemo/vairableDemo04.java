@@ -1,4 +1,4 @@
-package Day02;
+package Day02.virabledemo;
 
 public class vairableDemo04 {
     public static void main(String[] args) {

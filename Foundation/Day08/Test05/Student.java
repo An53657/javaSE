@@ -1,4 +1,4 @@
-package Day08.Test05;
+package Day08.test05;
 
 public class Student {
     private String name;

@@ -6,7 +6,7 @@
  * 周五： 拳击
  * 周六： 爬山
  * 周日： 好好吃一顿*/
-package Day04.switchDemo;
+package Day04.switchdemo;
 
 import java.util.Scanner;
 

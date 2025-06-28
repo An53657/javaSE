@@ -1,4 +1,4 @@
-package Day02; //定义包名，表示该类属于Java.day02包
+package Day02.scannerdemo; //定义包名，表示该类属于Java.day02包
 //键盘录入数据
 import java.util .Scanner;
 public class ScannerDemo02 {

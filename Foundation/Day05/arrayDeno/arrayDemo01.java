@@ -1,4 +1,4 @@
-package Day05.arrayDeno;
+package Day05.arraydeno;
 
 public class arrayDemo01 {
     public static void main(String[] args) {

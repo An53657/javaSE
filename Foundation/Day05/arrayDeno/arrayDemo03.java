@@ -1,7 +1,7 @@
 /* 数组遍历
  * 
  */
-package Day05.arrayDeno;
+package Day05.arraydeno;
 
 public class arrayDemo03 {
   public static void main(String[] args) {

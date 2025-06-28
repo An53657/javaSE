@@ -1,4 +1,4 @@
-package Day10.StringDemo;
+package Day10.stringdemo;
 
 import java.util.Scanner;
 

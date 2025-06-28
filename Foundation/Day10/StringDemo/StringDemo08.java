@@ -1,6 +1,6 @@
 //需求： 定义一个方法，实现字符串的翻转 键盘录入一个字符串 调用该方法后 在控制台暑期结果
 //利润键盘录入一个abc 输出结果cba
-package Day10.StringDemo;
+package Day10.stringdemo;
 
 //导入一个Scanner
 //import java.util.Scanner;

@@ -1,5 +1,5 @@
 /*  跳过循环 第二个*/
-package Day05.SkipIoopDemo;
+package Day05.SkipIoopdemo;
 
 public class SkipIoopDemo01 {
     public static void main(String[] args) {

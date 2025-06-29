@@ -1,4 +1,4 @@
-package MyTest.ObjectOriented.CityDemo02;
+package MyTest.objectoriented.citydemo02;
 
 public class City {
      private String name;

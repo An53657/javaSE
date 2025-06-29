@@ -1,5 +1,5 @@
 //这是字符串引用
-package MyTest.String;
+package MyTest.string;
 
 
 public class StringDemo01 {

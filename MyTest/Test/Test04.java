@@ -1,6 +1,6 @@
-package MyTest.Test;
+package MyTest.test;
 
-import MyTest.String.StringDemo01;
+import MyTest.string.StringDemo01;
 
 public class Test04 {
 	public static void main(String[] args) {

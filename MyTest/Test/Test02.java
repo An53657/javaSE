@@ -1,4 +1,4 @@
-package MyTest.Test;
+package MyTest.test;
 
 // 这是一个Java程序，演示了如何使用if语句进行条件判断
 import java.util.Scanner;

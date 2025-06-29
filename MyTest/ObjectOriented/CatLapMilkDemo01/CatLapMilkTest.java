@@ -1,6 +1,6 @@
-package MyTest.ObjectOriented.CatLapMilkDemo01;
+package MyTest.objectoriented.catlapMilkdemo01;
 
-import MyTest.String.StringDemo01;
+import MyTest.string.StringDemo01;
 
 public class CatLapMilkTest {
     public static void main(String[] args) {

@@ -4,7 +4,7 @@ package Day11.test;
 
 import java.util.ArrayList;
 
-public class test01 {
+public class Test01 {
     public static void main(String[] args) {
         ArrayList<String> list = new ArrayList<>();
         // 添加元素
@@ -14,11 +14,11 @@ public class test01 {
         // 遍历
         System.out.print("[");
         for (int i = 0; i < list.size(); i++) {
-            //如果i== 最大索引 自打印一个元素 获取并打印
+            // 如果i== 最大索引 自打印一个元素 获取并打印
             if (i == list.size() - 1) {
                 System.out.print(list.get(i));
             } else {
-                //并不是最后一个索引
+                // 并不是最后一个索引
                 System.out.print(list.get(i) + ", ");
             }
         }

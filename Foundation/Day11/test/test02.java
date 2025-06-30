@@ -4,7 +4,7 @@ package Day11.test;
 
 import java.util.ArrayList;
 
-public class test02 {
+public class Test02 {
     public static void main(String[] args) {
         // 基本数据类型对应的包装类
         // byte --> Byte

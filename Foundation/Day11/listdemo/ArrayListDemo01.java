@@ -26,7 +26,6 @@ public class ArrayListDemo01 {
         // 打印对象不是地址值，而是集合中存储数据内容
         // 在展示的时候会拿着[]把所有的数据进行包裹
 
-        
         ArrayList<String> list = new ArrayList<>();
         System.out.println(list);
     }

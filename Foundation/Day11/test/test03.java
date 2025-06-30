@@ -4,7 +4,7 @@ package Day11.test;
 
 import java.util.ArrayList;
 
-public class test03 {
+public class Test03 {
     public static void main(String[] args) {
         // 创建集合
         ArrayList<Character> list = new ArrayList<>();

@@ -61,8 +61,4 @@ public class CatLapMilk {
 
     }
 
-    public String interaction() {
-        return name + "";
-
-    }
 }

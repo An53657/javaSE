@@ -20,6 +20,6 @@ public class CatLapMilkTest {
         // 定义一个变量存储干的事情
         String thing = StringDemo01.PLAYGANW_MINECRAFT;
         System.out.println(StringDemo01.DOING + ":" + thing);
-
+      
     }
 }

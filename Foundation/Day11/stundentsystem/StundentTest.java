@@ -43,17 +43,32 @@ public class StundentTest {
                     System.out.println("没有这个选项");
             }
         }
+     
+        
     }
 
     // 添加学生
-    public static void addStundent(ArrayList<Stundent> list) {
+    public static void addStundent(ArrayList<Stundent> list){
         // 创建键盘录入
         Scanner sc = new Scanner(System.in);
+
         // 创建空参构造
         Stundent stu2 = new Stundent();
-        System.out.println("请输入学生的Id");
-        String ID = sc.next();
-        stu2.setId(ID);
+
+        // 调用contains方法判
+        while (true) {
+            System.out.println("请输入学生的Id");
+            String ID = sc.next();
+            Boolean flag = contains(list, ID);
+            if (flag) {
+                System.out.println("ID已经存在，需要重新录入");
+            } else {
+                // 表示ID不存在，可以继续使用
+                stu2.setId(ID);
+                break;
+            }
+
+        }
 
         System.out.println("请输入学生的姓名");
         String name = sc.next();
@@ -73,14 +88,54 @@ public class StundentTest {
 
     }
 
-    // 修改学生
+
+    // 删除学生
     public static void deleteStundet(ArrayList<Stundent> list) {
-        System.out.println("删除学生");
+        // 键盘录入删除的学生的ID
+        Scanner sc = new Scanner(System.in);
+        System.out.println("请输入要删除的学生");
+        String ID = sc.next();
+        // 查询ID在集合中的索引
+        int index = getIndex(list, ID);
+        // ID存在删除
+        // ID不存在，提示不存在并返回主菜单
+        if (index >= 0) {
+            list.remove(index);
+            System.out.println("ID为:" + ID + "的学生已删除");
+        } else {
+            System.out.println("ID不存在,删除失败");
+        }
     }
 
     // 修改学生
     public static void update(ArrayList<Stundent> list) {
-        System.out.println("修改学生");
+        Scanner sc = new Scanner(System.in);
+        System.out.println("请输入修改学生的ID");
+        String ID = sc.next();
+     
+        //
+        int index = getIndex(list, ID);
+
+        if (index == -1) {
+            System.out.println("要修改的" + ID + "不存在,重新输入");
+            return;
+        }
+        //
+        Stundent stu = list.get(index);
+        System.out.println("请输入学生要修改的学姓名");
+        String newName = sc.next();
+        stu.setName(newName);
+
+        //
+        System.out.println("请输入学生要修改的年龄");
+        int newAge = sc.nextInt();
+        stu.setAge(newAge);
+
+        //
+        System.out.println("请输入要修改的学生家庭住址");
+        String newAddress = sc.next();
+        stu.setAddress(newAddress);
+
     }
 
     // 查询学生
@@ -96,5 +151,45 @@ public class StundentTest {
             System.out.println(stu1.getId() + "\t" + stu1.getName() + "\t" + stu1.getAge() + "\t" + stu1.getAddress());
 
         }
+    }
+
+    // 实现ID唯一
+    public static boolean contains(ArrayList<Stundent> list, String ID) {
+        // // 循环遍历集合得到每一个学生对象
+        // for (int i = 0; i < list.size(); i++) {
+        // // 拿到学生对象后，获取ID判断
+        // Stundent stu = list.get(i);
+        // String sid = stu.getId();
+
+        // if (sid.equals(ID)) {
+        // // 存在true
+        // return true;
+        // }
+        // }
+        // // 不存在 返回false
+        // return false;
+
+        // 调用getIndex方法() 相当于这个方法不做事，把对应的参数交给别人，自己判断就行了。
+        // 如果说大于等于，表示存在，返回-1，-1大于等于0，返回假，把false返回出去就行
+        return getIndex(list, ID) >= 0;
+    }
+
+    // 通过ID获取索引的方法来删除学生
+    public static int getIndex(ArrayList<Stundent> list, String ID) {
+        // 遍历集合
+        for (int i = 0; i < list.size(); i++) {
+            // 得到集合的每一个学生对象拿出来
+            Stundent stu = list.get(i);
+            // 拿着集合的学生ID跟要查的ID比较
+            String sid = stu.getId();
+            if (sid.equals(ID)) {
+                // 如果一样，那么返回索引
+                return i;
+            } else {
+                return -1;
+            }
+        }
+        // 当循环结束之后还没有找到，就表示不存在，返回-1
+        return -1;
     }
 }

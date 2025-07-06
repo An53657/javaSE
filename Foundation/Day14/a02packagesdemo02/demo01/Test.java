@@ -1,6 +1,6 @@
 package Day14.a02packagesdemo02.demo01;
 
-import Day14.a02packagesdemo02.domain1.Teacher;
+import Day14.a02packagesdemo02.domain02.Teacher;
 
 public class Test {
     public static void main(String[] args) {
@@ -20,8 +20,10 @@ public class Test {
         System.out.println(t.getName());
 
         // 如果同时使用两个包中的同名类，需要用全类名
-    //     Day14.a02packagesdemo02.domain1.Teacher t1 = new Day14.a02packagesdemo02.domain1.Teacher();
-    //     Day14.a02packagesdemo02.domain2.Teacher t2 = new Day14.a02packagesdemo02.domain2.Teacher();
-    // }
-}
+        // Day14.a02packagesdemo02.domain1.Teacher t1 = new
+        // Day14.a02packagesdemo02.domain1.Teacher();
+        // Day14.a02packagesdemo02.domain2.Teacher t2 = new
+        // Day14.a02packagesdemo02.domain2.Teacher();
+        // }
+    }
 }

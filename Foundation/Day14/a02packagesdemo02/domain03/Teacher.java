@@ -1,4 +1,4 @@
-package Day14.a02packagesdemo02.domain2;
+package Day14.a02packagesdemo02.domain03;
 
 public class Teacher {
     private int age;

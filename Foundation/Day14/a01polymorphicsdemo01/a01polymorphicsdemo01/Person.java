@@ -1,4 +1,4 @@
-package Day14.polymorphics.a01polymorphicsdemo01;
+package Day14.a01polymorphicsdemo01.a01polymorphicsdemo01;
 
 public class Person {
     private String name;

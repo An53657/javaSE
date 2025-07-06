@@ -31,7 +31,7 @@
             岁的灰颜色的猫咪着眼睛侧着头吃鱼
     */
 
-package Day14.polymorphics.a02polymorphicsdemo02;
+package Day14.a01polymorphicsdemo01.a02polymorphicsdemo02;
 
 public class Test {
     public static void main(String[] args) {

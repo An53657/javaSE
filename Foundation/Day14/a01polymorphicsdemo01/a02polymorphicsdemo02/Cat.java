@@ -1,4 +1,4 @@
-package Day14.polymorphics.a02polymorphicsdemo02;
+package Day14.a01polymorphicsdemo01.a02polymorphicsdemo02;
 
 public class Cat extends Animal{
     

@@ -20,7 +20,7 @@ public class Manager extends Employee{
         //重写work
     @Override
     public void work() {
-        // TODO Auto-generated method stub
+        
       System.out.println("管理他人");
     }
 }

@@ -15,7 +15,7 @@ public class HostileMob extends MinecraftEntity {
 
     public HostileMob(String name, double health, double attackDamage) {
         super(name, health);
-      this.attackDamage = attackDamage;
+        this.attackDamage = attackDamage;
     }
 
     public void setattAckDamage(double attackDamage) {
@@ -28,7 +28,6 @@ public class HostileMob extends MinecraftEntity {
 
     @Override
     public void displayInfo() {
-        // TODO Auto-generated method stub
         System.out.println("扩展输出攻击力信息");
     }
 }

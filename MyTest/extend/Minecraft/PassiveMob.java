@@ -26,7 +26,6 @@ public class PassiveMob extends MinecraftEntity {
 
     @Override
     public void displayInfo() {
-        // TODO Auto-generated method stub
         System.out.println("扩展输出掉落物信息");
     }
 };

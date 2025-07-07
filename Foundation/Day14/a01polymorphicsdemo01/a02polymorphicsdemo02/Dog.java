@@ -20,7 +20,6 @@ public class Dog extends Animal {
 
     @Override
     public void eat(String something) {
-        // TODO Auto-generated method stub
         System.out.println("年龄为" + getAge() + "岁的老王养了两只" + getColour() + "的狗两只前腿死死的抱住" + something + "猛吃");
     }
 

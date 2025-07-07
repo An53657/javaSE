@@ -13,5 +13,7 @@ public class CodeBlockDemo01 {
         Stundent s   = new Stundent();
         
         Stundent ss = new Stundent("张三", 23);
+        System.out.println( s);
+        System.out.println(ss);
     }
 }

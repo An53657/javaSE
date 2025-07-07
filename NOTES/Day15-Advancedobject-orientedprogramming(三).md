@@ -1,4 +1,4 @@
-# 面向对象进(二) Advanced object-oriented programming(三)
+# 面向对象进(三) Advanced object-oriented programming(三)
 
 ## 四.抽象类
 1. 抽象类的作用是什么样的？

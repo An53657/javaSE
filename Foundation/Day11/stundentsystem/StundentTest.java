@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class StundentTest {
-    public static void main(String[] args) {
+       public static void main(String[] args) {
         // 创建集合
         ArrayList<Stundent> list = new ArrayList<>();
         // loop指定循环跳出

@@ -1,7 +1,7 @@
 //需求 定义一个集合 添加一些学生对象 并进行遍历
 //学生类属性为 姓名 年龄 
 //要求 对象的数据说键盘录入的数据
-package Day11.test;
+package Day11.testdemo;
 
 import java.util.ArrayList;
 import java.util.Scanner;

@@ -3,7 +3,7 @@
 //main方法中定义一个集合 存入三个对象
 //分别为 小米 1000 苹果8000 锤子 2999
 //定义一个方法将价格低于3000的数据信息返回 
-package Day11.test;
+package Day11.testdemo;
 
 import java.util.ArrayList;
 

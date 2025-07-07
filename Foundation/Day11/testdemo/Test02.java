@@ -1,6 +1,6 @@
 //需求 定义一个集合 添加数字 并进行遍历 
 //遍历格式[元素1，元素2，元素3]
-package Day11.test;
+package Day11.testdemo;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package Day11.test;
+package Day11.testdemo;
 
 public class Phone {
     private String brand;

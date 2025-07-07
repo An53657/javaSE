@@ -1,6 +1,6 @@
 //需求 定义一个集合 添加一些学生对象 并进行遍历
 //学生类属性为 姓名 年龄 
-package Day11.test;
+package Day11.testdemo;
 //导入ArrayList集合类
 
 import java.util.ArrayList;

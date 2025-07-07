@@ -3,7 +3,7 @@
 // 要求 定义一个方法根据id查找用户的相关信息
 // 如果存在 返回索引
 // 如果不存在 返回-1
-package Day11.test;
+package Day11.testdemo;
 
 import java.util.ArrayList;
 

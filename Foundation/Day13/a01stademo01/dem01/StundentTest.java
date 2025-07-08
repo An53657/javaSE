@@ -1,4 +1,4 @@
-package dem01;
+package Day13.a01stademo01.dem01;
 
 public class StundentTest {
     public static void main(String[] args) {

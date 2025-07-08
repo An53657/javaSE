@@ -1,4 +1,4 @@
-package demo02;
+package Day13.a01stademo01.demo02;
 
 public class TestDemo {
     public static void main(String[] args) {

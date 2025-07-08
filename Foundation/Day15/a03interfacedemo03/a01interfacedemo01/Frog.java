@@ -1,4 +1,4 @@
-package a03interfacedemo03;
+package a03interfacedemo03.a01interfacedemo01;
 
 public class Frog extends Animal implements Swim {
     public Frog() {

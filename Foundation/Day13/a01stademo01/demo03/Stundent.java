@@ -1,6 +1,6 @@
 //定义一个JavaBean
 //学生类的属性为：name age gender
-package demo03;
+package Day13.a01stademo01.demo03;
 
 public class Stundent {
     private String name ;

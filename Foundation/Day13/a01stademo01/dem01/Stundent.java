@@ -1,7 +1,7 @@
 //需求 用JavaBean类来描述这个班级的学生
 //成员变量 姓名 年龄 性别
 ///成员方法 学习
-package dem01;
+package Day13.a01stademo01.dem01;
 
 public class Stundent {
     public static String techername;

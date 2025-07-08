@@ -2,7 +2,7 @@
 //需求定义一个集合，用于存储学生对象
 //学生类的属性为：name age gender
 //定义一个工具类，用于获取集合中最大学生年龄
-package demo03;
+package Day13.a01stademo01.demo03;
 //导入集合
 import java.util.ArrayList;
 

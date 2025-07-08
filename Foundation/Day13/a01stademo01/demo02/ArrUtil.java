@@ -4,7 +4,7 @@
 //返回字符串格式 [10，20，5，100]（只考虑整型数组，且只考虑一维数组)
 //提供这一个工具方法getArrage,(用于返回平均分。只考虑浮点型，且只考虑一维数组)
 //定义一个测试类TestDemo，调用工具类的工具方法，并返回结果。
-package demo02;
+package Day13.a01stademo01.demo02;
 
 public class ArrUtil {
     // 私有化成员变量

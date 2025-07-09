@@ -16,8 +16,7 @@ public class Test1 {
         new Swim() {
             @Override
             public void swim() {
-                // TODO Auto-generated method stub
-
+               
             }
         };
 

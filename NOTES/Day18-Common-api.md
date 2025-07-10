@@ -1,14 +1,67 @@
 # 常用api Common-api
 
-## 2.Math
+## 1.Math
 1. Math帮助我们进行数学计算的工具类
 2. 里面的方法都是静态的
 常见的方法如下：
+      
+       方法名                                                说明
+       public static int        abs(int a)                  获取参数绝对值
+       public static double     ceil(double a )             向上取整
+       public static double     floor(double a)             向下取整
+       public static int        round(float)a               四舍五入
+       public static int        max  (int a , int b)        获取两个int值中的较  大值
+       public static double     pow  (double a ,double b)   返回a的次幂的值
+       public static double     random()                    返回double的随机  值，范围[0.0,1.0）
+
+## 2.Sysrem
+1. System:也是一个工具类，提供了一些与系统相关的方法
+2. 时间原点：1970年1月1日0.0.0，我国在东巴区，有八个小时的时差
+3. 1秒=1000毫米
+4. 常见的方法
+
+       方法名                                              说明
+       public static void exit(int static)                 终止当前运行的java虚拟机
+       public static long currentTimeMillis()              返回当前系统时间毫秒值形式
+       public static void arraycopy(数据源数组，起始索引，目的地索引，起始索引，拷贝个数)    拷贝数组
+
+## 3.Runtime
+                  
+       方法名                                              说明
+       public     static Runtime getRuntime()              当前系统环境运行对象
+       public void exit (int static)                       停止虚拟机
+       public int  availableProcessoors()                  获取CPU线程数
+       public log  maxMemory                               JVM能从系统中获取总内存大小(单位 byte字节)
+       public log  totalMemory                               JVM能已经从系统中获取总内存大小(单位 byte字节)
+       public log  freeMemory                               JVM剩余内存大小(单位 byte字节)
+       public Process exec (string comand)                  运行cmd命令
+
+## 4.Object
+5. Object是java顶级父类所有类直接或间接继承于Object类
+       
+        方法名                                             说明
+        publicc String toString()                          返回对象字符串表示形式
+        public boolean equals(Object obj)                  比较两个对象是否相等
+        protect Object clone(int a)                        对象克隆 
+
+## 5.Objects是java的一个工具类
   
-      public static int        abs(int a)                  获取参数绝对值
-      public static double     ceil(double a )             向上取整
-      public static double     floor(double a)             向下取整
-      public static int        round(float)a               四舍五入
-      public static int        max  (int a , int b)        获取两个int值中的较大值
-      public static double     pow  (double a ,double b)   返回a的次幂的值
-      public static double     random()                    返回double的随机值，范围[0.0,1.0）
+       方法名                                              说明
+       public static boolean equals(Object a, Object b)    先做非空判断，比较两个对象
+       public static boolean isNull(Object obj)            判断对象是否为Null,为null返回true,反之
+       public static boolean nonNull(Object obj)            判断对象是否为Null,跟isnull结果相反
+
+## 6.BigInteger构造方法
+6. 如果BigInteger表示的数字没有超出long的范围，可以用静态方法获取
+7. 如果BigInteger表示的数字超出long的范围，可以用构造方法获取
+8. 对象一旦创建，BigInteger内部记录的值不能发生变化
+9. 只要进行了计算都会产生新的BigInteger对象
+
+
+       方法名                                                说明
+       public BigInteger (int num, Random rnd)               获取随机大整数，范围[ 0~  2 的 num 次方 - 1]
+       public BigInteger(String val)                         获取指定的大整数
+       public BigInteger(String val , int radix)             获取指定进制的大整数
+
+       静态构造
+       public static BigInteger valOf(log val)                静态方法获取BigInteger对象，内部有优化

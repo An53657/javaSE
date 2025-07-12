@@ -43,6 +43,7 @@ public class RegexDemo06 {
 
         // 二种
         String regex3 = "((?i)java)(?:8|11|17|)";
+        System.out.println(regex3);
         Pattern p2 = Pattern.compile(regex2);
         Matcher m2 = p2.matcher(str);
 

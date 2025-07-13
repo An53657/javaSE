@@ -91,14 +91,31 @@
 
             2. Instrant:时间戳
             方法名                     说明
-
+            static Instant now()       获取当前时间的Instant对象(标准时间)
+            static Instant ofXXX(long epochMilli)  根据(秒 毫秒 纳秒)获取Imstant对象
+            ZoneDateTime atZone(ZoneId zone)        指定时区
+            boolean isXXX(Instant otherInstant)     判断系列的方法
+            Instart miusXxx(long millisToSubtract)  减少时间系列的方法
+            Instart PlusXxx(long millisToSubtract)  曾加时间系列的方法
 
             3. ZoneDateTime: 带时区的时间
+            方法名                                    说明
+            static ZonedDateTime now()                获取当前时间的ZonedDateTime对象
+            static ZoneDateTime offxxx()               获取指定时间的ZonedDateTime对象
+            ZonedDateTime withXxx(时间)                 修改时间系列的方法
+            ZonedDateTime minusXxx(时间)                减少时间系列的方法
+            ZonedDateTime plusXxx(时间)                 增加时间系列的方法
+
 
 ---
 
 ### 2.日期格式化类(SimpleDateFormat)
 
+          1. DateTimeFormatter 用于时间的格式化和解析
+
+          方法名                                          说明
+          static DateTimeFormatter ofPttern(格式)         获取格式对象
+          String format(时间对象)                         按照指定格式格式化
 
 ---
 
@@ -107,5 +124,17 @@
 ---
 
 ### 4.工具类
+
+
+---
+
+
+## 3.包装类
+
+
+---
+
+
+## 4.综合练习
 
 

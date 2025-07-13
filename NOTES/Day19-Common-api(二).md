@@ -1,0 +1,111 @@
+# 常用api(二) Common-api(二)
+
+
+
+## 1. 时间相关的知识
+1. 时间标准时间
+   格林尼治时间/格林威治时间(Greenwich Mean Time) 简称GMT 现在已弃用
+   目前世界标时间(UTC)已替换为:原子钟
+2. 中国标准时间：世界标准时间加8小时
+
+---
+
+## JDK7以前的时间类
+
+### 1.Date
+3. 如何创建日期对象
+
+            空参构造
+
+            Date date = new Date();
+
+            带参构造
+
+ 
+           Date date = new Date(zhidig)
+2. 如何修改瞬间的毫秒值
+
+           setTime(毫秒值)
+
+3. 如何获取时间对象的毫秒值
+
+            getTime();
+
+---
+
+### 2.SimpleDateFormat
+4. 构造方法
+
+            构造方法                                                    说明
+            public SimpleDateFormat()                                  构造一个SimpleDateFormat，使用默认格式
+            public SimpleDateFormat(String pattern)                    构造一个SimpleDateFormat，使用指定 格式
+            方法名                                                      说明
+             public final String format(Date ,date)                     格式化(日期 字符串)
+             public Date prse(String sourse)                            解析(字符串 日期)
+
+5. SimpleDateFormat两个作用
+   格式化和解析
+6. 如何指定格式
+   yyyy年mm月dd日 HH:mm:dd:ss
+
+---
+
+7. Calendar表示什么
+   表示一个时间的日历对象
+   Calwnder代表了系统当前时间的日历对象，可以单独修改、获取时间中的年月日
+   细节
+   Calender是一个抽象类，不能直接创建对象
+
+8. 如何获取对象
+   通过getInstance方法获取对象
+
+            方法名                                 说明
+            public static Calender getInstance()   获取当前时间日历对象
+
+9. 常见方法
+
+            方法名                                 说明
+            public final Date getTime()            获取日历对象
+            public final setTime(Date date)        给日历设置对象
+            public long getTimeInMillis()          拿到时间毫秒值
+            public void setTimeInMillis(long millis) 给日历设置毫秒值
+            public int get(int field)                取日历中的某个字段名
+            public void set(int field,int value)     修改日历的某个字段名信息
+            public void add(int field,int amount)    为某个字段名曾加或减少指定信息
+    
+10. 细节
+    日历类中的月份范围0~11
+    日历类中的星期的特点星期日是一周的第一天
+
+---
+
+## 2.jdk8的射击类
+
+### 1.时间类(Date)
+
+            1. Zomeld:时区
+            方法名                     说明
+            static set<String> getAvailableZoneIds()  获取java中支持的所有时区
+            static ZoneId systemDefault()              获取系统默认时区
+            static ZoneId of (String zoneId)           获取一个指定的时区
+
+            2. Instrant:时间戳
+            方法名                     说明
+
+
+            3. ZoneDateTime: 带时区的时间
+
+---
+
+### 2.日期格式化类(SimpleDateFormat)
+
+
+---
+
+### 3.日历类(Calemder)
+
+---
+
+### 4.工具类
+
+

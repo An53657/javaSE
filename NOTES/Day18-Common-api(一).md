@@ -1,7 +1,10 @@
-# 常用api Common-api
+# 常用api(一) Common-api(一)
 
 ## 1.Math
 1. Math帮助我们进行数学计算的工具类
+
+ 
+
 2. 里面的方法都是静态的
 常见的方法如下：
       
@@ -14,6 +17,9 @@
        public static double     pow  (double a ,double b)   返回a的次幂的值
        public static double     random()                    返回double的随机  值，范围[0.0,1.0）
 
+
+---
+
 ## 2.Sysrem
 1. System:也是一个工具类，提供了一些与系统相关的方法
 2. 时间原点：1970年1月1日0.0.0，我国在东巴区，有八个小时的时差
@@ -24,6 +30,8 @@
        public static void exit(int static)                 终止当前运行的java虚拟机
        public static long currentTimeMillis()              返回当前系统时间毫秒值形式
        public static void arraycopy(数据源数组，起始索引，目的地索引，起始索引，拷贝个数)    拷贝数组
+
+---
 
 ## 3.Runtime
                   
@@ -36,6 +44,8 @@
        public log  freeMemory                               JVM剩余内存大小(单位 byte字节)
        public Process exec (string comand)                  运行cmd命令
 
+---
+
 ## 4.Object
 5. Object是java顶级父类所有类直接或间接继承于Object类
        
@@ -44,12 +54,17 @@
         public boolean equals(Object obj)                  比较两个对象是否相等
         protect Object clone(int a)                        对象克隆 
 
+
+---
+
 ## 5.Objects是java的一个工具类
   
        方法名                                              说明
        public static boolean equals(Object a, Object b)    先做非空判断，比较两个对象
        public static boolean isNull(Object obj)            判断对象是否为Null,为null返回true,反之
        public static boolean nonNull(Object obj)            判断对象是否为Null,跟isnull结果相反
+
+---
 
 ## 6.BigInteger构造方法
 6. 如果BigInteger表示的数字没有超出long的范围，可以用静态方法获取
@@ -92,6 +107,9 @@
        public BigDecimal multiply(bigInteger val)             乘法
        public BigDecimal divide(BigInteger val)               除法  
        public BigDecimal divide(BigInteger val,精确几位，舍入模式)               除法  
+
+
+---
 
 ## 7. 正则表达式
 13. 正则表达式的作用
@@ -150,4 +168,6 @@
     以左括号为基准，最左边的是第一组
 19. 非捕获分组
     分组之后不需要本组数据，仅仅把数据括起来
-    (?:) (?=) (?!)都是非捕获分组
+    (? :) (?=) (?!)都是非捕获分组
+
+---

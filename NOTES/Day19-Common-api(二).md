@@ -148,6 +148,34 @@
 
 
 ## 3.包装类
+11. 什么是包装类？
+    基本数据类型所对应的对象
+
+12.  有那些包装类
+
+    byte       --> Byte
+    short      --> Short
+    char       --> Character
+    int        --> Integer
+    long       --> Long
+    float      --> Float
+    double     --->Double
+    boolean    --> Boolean
+    
+13. JDK5以后对包装类新增了什么特性？
+      自动装箱：把基本类型会自动变成其对应的包装类
+      自动拆箱：把包装类型会自动变成其对应的基本类型
+14. 以后如何获取包装类的？
+    不需要new, 不需要调用对象，直接赋值
+
+           Integer i = 0;
+
+           方法名                   说明
+           public static String toBinaryString(int i )      得的二进制
+           public static String toOctalString(int i)             得到八进制
+           public static String toHexString(int i)               得到十六进制
+           public static int parseIn(String s)                   将字符串类型的整数转成int类型的整数
+
 
 
 ---

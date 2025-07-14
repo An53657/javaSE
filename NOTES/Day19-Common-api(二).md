@@ -1,4 +1,4 @@
-# 常用api(二) Common-api(二)
++# 常用api(二) Common-api(二)
 
 
 
@@ -121,9 +121,27 @@
 
 ### 3.日历类(Calemder)
 
+         1. LocalDate 年月日
+         2. LocalTime 时分秒纳秒
+         3. LocalDateTime 年月日 时分秒纳秒 
+
+         方法名                                          说明
+         static xxx now()                               获取当前时间的ZonedDateTime对象
+         static xxx offxxx()                            获取指定时间对象
+         get开头的方法                                   获取年月日 时分秒纳秒
+         isxxBefore() isafter                           比较两个local对象
+          withX开头的                修改时间系列的方法
+          minus开头的                减少时间系列的方法
+          plusX开头的                增加时间系列的方法
+
 ---
 
 ### 4.工具类
+
+         1. Duration:用于计算两个 "时间" 间隔 (秒，纳秒)
+         2. Period  :用于计算两个 "日期" 间隔 (年月日)
+         3. ChronoUnit:用于计算两个 "日期" 间隔 (所用的)
+   
 
 
 ---

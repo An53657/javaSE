@@ -1849,17 +1849,65 @@ JDK8出现的可变操作字符串的容器 可以高效 方面拼接字符串
 
 ---
 
+
 ### 3.日历类(Calemder)
+
+         1. LocalDate 年月日
+         2. LocalTime 时分秒纳秒
+         3. LocalDateTime 年月日 时分秒纳秒 
+
+         方法名                                          说明
+         static xxx now()                               获取当前时间的ZonedDateTime对象
+         static xxx offxxx()                            获取指定时间对象
+         get开头的方法                                   获取年月日 时分秒纳秒
+         isxxBefore() isafter                           比较两个local对象
+          withX开头的                修改时间系列的方法
+          minus开头的                减少时间系列的方法
+          plusX开头的                增加时间系列的方法
 
 ---
 
 ### 4.工具类
 
+         1. Duration:用于计算两个 "时间" 间隔 (秒，纳秒)
+         2. Period  :用于计算两个 "日期" 间隔 (年月日)
+         3. ChronoUnit:用于计算两个 "日期" 间隔 (所用的)
+   
+
 
 ---
 
 
-## 3.包装类
+### 3.包装类
+
+11. 什么是包装类？
+    基本数据类型所对应的对象
+
+12.  有那些包装类
+
+    byte       --> Byte
+    short      --> Short
+    char       --> Character
+    int        --> Integer
+    long       --> Long
+    float      --> Float
+    double     --->Double
+    boolean    --> Boolean
+    
+13. JDK5以后对包装类新增了什么特性？
+      自动装箱：把基本类型会自动变成其对应的包装类
+      自动拆箱：把包装类型会自动变成其对应的基本类型
+14. 以后如何获取包装类的？
+    不需要new, 不需要调用对象，直接赋值
+
+           Integer i = 0;
+
+           方法名                   说明
+           public static String toBinaryString(int i )      得的二进制
+           public static String toOctalString(int i)             得到八进制
+           public static String toHexString(int i)               得到十六进制
+           public static int parseIn(String s)                   将字符串类型的整数转成int类型的整数
+
 
 
 ---
@@ -1868,7 +1916,7 @@ JDK8出现的可变操作字符串的容器 可以高效 方面拼接字符串
 ## 4.综合练习
 
 
----
+
 
 
 

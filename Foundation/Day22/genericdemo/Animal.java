@@ -1,4 +1,4 @@
-package MyTest.inerefacedemo.testdemo;
+package Foundation.Day22.genericdemo;
 
 public abstract class Animal {
     private String name;
@@ -16,7 +16,7 @@ public abstract class Animal {
         this.name = name;
     }
 
-    public String getName() {
+    public String grtName() {
         return name;
     }
 

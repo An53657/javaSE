@@ -14,12 +14,7 @@ public class Test {
     public static void main(String[] args) {
 
         System.out.println("-------------------------------------------------------");
-        // 创建哈士奇对象
-        HusKy h1 = new HusKy();
-        System.out.println("哈士奇： ");
-        h1.eat();
-        h1.drink();
-        h1.breakHome();
+       
 
         System.out.println("-------------------------------------------------------");
 

@@ -87,7 +87,7 @@
        方法名                                   说明
        public StringBuilder append (任意类型)   添加对象 并返回对象本身
        public StringBuilder reverser() 翻转容器中的内容
-       public int length()             返回长度(支付出现的个数)
+       public int length()             返回长度(字符出现的个数)
        public String toString()  通过toString()就可以实现把StringBuilder转换String
 
 链式编程 当我们调用一个方法的时候 不需要用变量接受他们的结果 可以继续调用其他的方法

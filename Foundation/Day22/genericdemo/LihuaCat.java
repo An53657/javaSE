@@ -1,4 +1,4 @@
-package Foundation.Day22.genericdemo;
+package Day22.genericdemo;
 
 public class LihuaCat extends Cat {
     @Override

@@ -1,5 +1,5 @@
 /* 练习*/
-package Foundation.Day22.genericdemo;
+package Day22.genericdemo;
 
 import java.util.ArrayList;
 

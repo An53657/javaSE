@@ -1,4 +1,4 @@
-package Foundation.Day22.genericdemo;
+package Day22.genericdemo;
 
 public class HusKyDog extends Dog {
     @Override

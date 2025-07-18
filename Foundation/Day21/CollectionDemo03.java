@@ -4,7 +4,7 @@
         方法体；
     }*/
 
-package Day21.Collectiondemo01;
+package Day21;
 
 import java.util.ArrayList;
 import java.util.Collection;

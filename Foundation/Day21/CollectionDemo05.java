@@ -6,7 +6,7 @@ E set (int,index,E element)             修改指定索引处的元素，返回�
 E get (int index)                       返回指定索引元素
 
  */
-package Day21.Collectiondemo01;
+package Day21;
 
 import java.util.ArrayList;
 import java.util.List;

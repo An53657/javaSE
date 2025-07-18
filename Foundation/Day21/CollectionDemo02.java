@@ -11,7 +11,7 @@ boolean hasNext()                     判断当前位置是否有元素 有元�
 E next ()                             获取当前位置元素，并将迭代器对象移向下一个位置
      
  */
-package Day21.Collectiondemo01;
+package Day21;
 
 import java.util.ArrayList;
 import java.util.Collection;

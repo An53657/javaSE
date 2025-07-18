@@ -2,7 +2,7 @@
 方法名                                                   说明
 default void forEach(Consumer< ? Super T > action );    结合Lambda遍历集合
  */
-package Day21.Collectiondemo01;
+package Day21;
 
 import java.util.ArrayList;
 import java.util.Collection;

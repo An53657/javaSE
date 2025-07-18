@@ -6,7 +6,7 @@
     lambda表达式遍历
     普通for遍历(因为lisy集合存在索引)
  */
-package Day21.Collectiondemo01;
+package Day21;
 
 import java.util.ArrayList;
 import java.util.Iterator;

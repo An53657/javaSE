@@ -19,12 +19,24 @@
          boolean containsValue(Object Value) 判断是否包括指定的值
          boolean isEmpty()                   判断集合是否为空
          int size()                          集合的长度，也就是集合中键值队的个数
-
+3. Map集合遍历方式
+   - 键找值
+   - 键值对
+   - lambda表达式
 
 ---
 
 
 ## HashMap
+4. HashMap底层是哈希表结构
+5. 依赖hashCode方法和equals方法保证方法键的维以一
+6. 如果键存储的是自定义对象，需要重写hashCode和euals方法
+   如果值存储的是自定义对象，不需要重写hashCode和euals方法
+7. HashMap特点
+   - HashMap是Map里的一个实现类
+   - 没有额外需要学习的特殊方法，直接使用Map里面的方法就可以了
+   - 特点都是由键决定的：无序、不重、无索引
+   - 注意:跟值没有关系
 
 
 ---

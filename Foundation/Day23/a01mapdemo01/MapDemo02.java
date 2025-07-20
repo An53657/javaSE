@@ -1,6 +1,6 @@
 //双列集合第一种遍历方式
 //通过键找值
-package Day23.mapdemo01;
+package Day23.a01mapdemo01;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -10,7 +10,7 @@ boolean isEmpty()                   判断集合是否为空
 int size()                          集合的长度，也就是集合中键值队的个数
 
  */
-package Day23.mapdemo01;
+package Day23.a01mapdemo01;
 
 import java.util.HashMap;
 import java.util.Map;

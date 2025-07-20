@@ -3,19 +3,14 @@
 ## 1.集合体系结构
 1. 单列结合 Collection
 
-                                                         Collaction
-                            
-                                              list                                     set
-                                
-                                ArrayList    LinkedList    Vector               HashSet     TreeSet
-                                                                        
-                                                                            LinkedHashSet
-2. List和Set集合的特点
+![java单列集合](C:\Users\kelly\Pictures\Screenshots\java单列集合.png)
+
+1. List和Set集合的特点
    - List集合：添加元素的特点是有序的，可重复的、索引的
    - Set集合： 添加元素的特点是无序的，不重复的，无索引的
    有序时是存和取的顺序是一样的
 
-3. Collection是单列集合的祖宗接口，它的功能是全部单列集合的都可以继承使用的
+2. Collection是单列集合的祖宗接口，它的功能是全部单列集合的都可以继承使用的
 
         方法名                            说明
         public boolean add(E e)           把给定的对象添加到当前集合中
@@ -57,13 +52,13 @@
      增强for循环格式
      
                     for(元素的数据类型 :数组或者集合 ){
-
+         
                      }
       - 增强for的细节
         修改增强for的变量，不会改变集合中原本的数据
     - Lambda表达式遍历
       - 得益于JDK 8开始的新技术Lambda表达式，提供了一种更简单，更直接遍历方式
- 
+
               方法名                                                   说明
               default void forEach(Consumer< ? Super T > action );    结合Lambda遍历集合
 5. 总结：
@@ -167,4 +162,3 @@
            public void getLast(E e )       返回此列表中的最后一个元素
            public void removeFirst(E e )      从此列表中删除并返回第一个元素
            ublic void removeLast(E e )      从此列表中删除并返回最后一个元素
- 

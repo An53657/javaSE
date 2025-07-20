@@ -1,4 +1,4 @@
-package Day23.mapdemo01;
+package Day23.a01mapdemo01;
 
 import java.util.HashMap;
 import java.util.Map;

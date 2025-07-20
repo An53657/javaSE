@@ -1,5 +1,5 @@
 //利用键找值的方式遍历Map集合，要求 装着键的单列集合使用Lambad表达式进行遍历
-package Day23.mapdemo01;
+package Day23.a01mapdemo01;
 
 import java.util.HashMap;
 import java.util.Map;

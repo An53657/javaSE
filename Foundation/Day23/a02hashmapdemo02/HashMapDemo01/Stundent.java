@@ -1,4 +1,4 @@
-package Day23.a02hashmapdemo02.HashMapDemo01;
+package Day23.a02hashmapdemo02.hashMapdemo01;
 
 import java.util.Objects;
 

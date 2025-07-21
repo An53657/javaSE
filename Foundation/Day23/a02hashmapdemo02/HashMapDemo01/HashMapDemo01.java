@@ -3,7 +3,7 @@
 存储三个键值对象，并遍历
 要求：同姓名，同年龄认为是一个人
  */
-package Day23.a02hashmapdemo02.HashMapDemo01;
+package Day23.a02hashmapdemo02.hashMapdemo01;
 
 import java.util.HashMap;
 import java.util.Map;

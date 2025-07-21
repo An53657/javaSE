@@ -20,7 +20,7 @@
          void Clear()                        移除所有的键值对元素
          boolean containsKey(Object Key)     判断集合是否包括指定的键
          boolean containsValue(Object Value) 判断是否包括指定的值
-         boolean isEmpty()                   判断集合是否为空
+        boolean isEmpty()                   判断集合是否为空
          int size()                          集合的长度，也就是集合中键值队的个数
 3. Map集合遍历方式
    - 键找值
@@ -57,7 +57,15 @@
 
 
 ## 4. TreeMap
+9. 特点
+   - TreeMap和treeset原理一样，都是红黑树结构
+   - 由键决定的特性：不重复、无索引、可排序
+   - 可排序：对键进行排序
+   - 注意: 默认按照从小到大排序，也可以自己规定键的排序规则
 
+10. 代码书写两种排序规则
+    - 实现Comparable接口，指定比较规则
+    - 创建集合时传递Comparator比较器对象，指定比较规则
 
 
 ---

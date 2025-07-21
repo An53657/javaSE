@@ -4,7 +4,9 @@
     - 如果已经重写了hashCode方法，不同对象只要属性值相同，计算出来的哈希值就是一样的
     - 在小部分情况下，不同属性值或是地址值计算出来的哈希值也有可能是一样(这种情况叫哈希碰撞)
  */
-package Day22.setdemo;
+package Day22.a02setdemo02.a01hashsetdemo01;
+
+import Day22.a02setdemo02.a04otherdemo04.Stundent;
 
 public class HashSetDemo01 {
     public static void main(String[] args) {

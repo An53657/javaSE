@@ -1,4 +1,4 @@
-package Day22.genericdemo;
+package Day22.a01genericdemo01;
 
 public class HusKyDog extends Dog {
     @Override

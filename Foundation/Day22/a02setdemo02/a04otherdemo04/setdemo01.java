@@ -4,7 +4,7 @@
     增强for遍历
     lambda表达式遍历
  */
-package Day22.setdemo;
+package Day22.a02setdemo02.a04otherdemo04;
 
 import java.util.HashSet;
 import java.util.Iterator;

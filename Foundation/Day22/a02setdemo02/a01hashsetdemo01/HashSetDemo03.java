@@ -1,9 +1,9 @@
-package Day22.setdemo;
+package Day22.a02setdemo02.a01hashsetdemo01;
 
 import java.util.Iterator;
 import java.util.Set;
 
-public class HashSet {
+public class HashSetDemo03 {
     public static void main(String[] args) {
         Set<String> s1 = new java.util.HashSet<>();
 

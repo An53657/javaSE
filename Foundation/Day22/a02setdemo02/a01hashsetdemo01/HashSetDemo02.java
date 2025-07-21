@@ -1,6 +1,8 @@
-package Day22.setdemo;
+package Day22.a02setdemo02.a01hashsetdemo01;
 
 import java.util.HashSet;
+
+import Day22.a02setdemo02.a04otherdemo04.Stundent;
 
 public class HashSetDemo02 {
     public static void main(String[] args) {

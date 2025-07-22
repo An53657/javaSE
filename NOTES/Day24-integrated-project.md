@@ -4,6 +4,11 @@
 
 
 ## 1. 源码分析
+
+---
+
+## 2.可辨参数
+
 1. 可变参数本质上就是一个数组
 2. 作用：在形参中接受多个数据
 3. 格式：数据类型...参数名称
@@ -13,17 +18,27 @@
    - 形参列表中可变参数只能有一个
    - 可变参数只能放在形参列表的后面
 
----
-
-## 2.可辨参数
-
 
 ---
 
 
 ## 3. Collections
+5. Collections
+   - 是java.util.Collections:是集合的工具类
+   - 作用:Collwxtions不是集合，而是集合的工具类
 
+            collections常用方法
 
+            方法名称                                                                说明
+            public static <T> boolean addAll(Collections<T> c,    T ...elments)     批量添加元素
+            public static void shuffle(List<?> List)                                打乱List集合元素的顺序
+            public static <T> void short(List<T> List)                              排序
+            public static <T> void short(List<T> List Comparator<T> c)              根据指定规则进行排序
+            public static <T> int binarySerach (List <T> List,T key)                以二分查找法查找元素
+            public static <T> void copy (List <T> dest, List <T> src)               拷贝集合中的元素
+            public static <T> int fill (List <T> List,T obj)                        使用指定元素填充集合
+            public static <T> void max/min(Collections<T> coll)                     根据默认的自然排序获取最大值/最小值
+            public static <T> voud swap(List <?> List, int i, int j)                交换集合中指定位置的元素
 ---
 
 

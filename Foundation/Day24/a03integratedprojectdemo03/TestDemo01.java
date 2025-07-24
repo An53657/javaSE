@@ -1,6 +1,6 @@
 /*自动点名器1
- * 班级里有n个学生，实现随机点名器
- * 学生属性有姓名，年龄，性别，
+班级里有n个学生，实现随机点名器
+学生属性有姓名，年龄，性别，
  */
 package Day24.a03integratedprojectdemo03;
 
@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Random;
 
-public class TesstDemp01 {
+public class TestDemo01 {
 
     public static void main(String[] args) {
         // 创建集合

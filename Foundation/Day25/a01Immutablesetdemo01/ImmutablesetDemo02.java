@@ -6,6 +6,7 @@ import java.util.Set;
 public class ImmutablesetDemo02 {
     public static void main(String[] args) {
         // 创建不可变的set集合
+        //当我们要获取一个不可变的Set集合时，参数要保持唯一
         Set<Integer> set = Set.of(114, 2, 3, 5, 7, 8, 9);
 
         // 添加

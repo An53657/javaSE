@@ -43,10 +43,18 @@
          数组              public static<T> Stream(T[] array)   Array工具类中的静态方法
          一堆零散数据       public static<T> of(T...values)
 
-
-
-
 ---
+9. Stream流的中间方式
+
+         名称                    说明
+         Stream<T> filter(Predicate<? super T> predicate)   过滤
+         Stream<T> limit(long maxSize)                      获取前几个元素
+         Stream<T> skip (long n)                            跳过前几个元素
+         Stream<T> disinct()                                元素去重，(依赖hashCode,equals方法)
+         static <T> Stream<T> concat(Stream a , Stream b)   合并a和b两个流为一个流
+         Stream<R> map(Function<T,R> mapper)                转换类型
+         注意1：中间方法，返回新的Stream流，原来的Stream流只能使用一次，建议使用链式编程
+         注意2：修改Stream流中的数据，不会影响原来集合或者数组中的数据
 
 
 ## 3.方法引用

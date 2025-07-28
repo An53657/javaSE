@@ -22,6 +22,28 @@
 ---
 
 ## 2. Stream流
+4. Stream流的作用
+   结合Lsmbda表达式，简化集合、数组的操作
+
+5. Stream流的使用步骤
+   - 先得到一条Stream流(流水线)，并把数据放上去
+   - 利用Stream流中的API进行各种操作
+
+
+6. 中间方法
+
+7. 终结方法
+
+
+8. 先得到一条Stream流(流水线)，并把数据放上去
+   
+         获取方式          方法名                               说明
+         单列结合          default Stream<E> Stream()           Collection中默认方法
+         双列结合          无                                   无法直接使用Stream流
+         数组              public static<T> Stream(T[] array)   Array工具类中的静态方法
+         一堆零散数据       public static<T> of(T...values)
+
+
 
 
 ---

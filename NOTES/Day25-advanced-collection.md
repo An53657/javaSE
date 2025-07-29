@@ -57,4 +57,13 @@
          注意2：修改Stream流中的数据，不会影响原来集合或者数组中的数据
 
 
+10. Stream终结方法
+
+         名称                                            说明
+         void forEach(counsumer action)                  遍历
+         long count()                                    统计
+         toarray()                                       收集流中的数据，放到数组当中
+         collect(collector , collector)                  收集流中的数据，放到集合当中
+
+
 ## 3.方法引用

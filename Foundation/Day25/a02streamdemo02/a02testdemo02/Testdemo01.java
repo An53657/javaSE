@@ -10,7 +10,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Testdemo01 {
+public class TestDemo01 {
     public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<>();
 

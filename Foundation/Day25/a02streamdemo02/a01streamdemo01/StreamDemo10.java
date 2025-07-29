@@ -37,28 +37,7 @@ public class StreamDemo10 {
 
         // Map集合
         Map<String, Integer> newMap1 = list.stream().filter(s -> "男".equals(s.split("-")[1]))
-                /*
-                 * 参数详解
-                 * toMap：参数一表示键的生成规则
-                 * 参数二表示值的生成规则
-                 * 
-                 * 参数一：
-                 * Function泛型一: 表示流中的每一个数据类型
-                 * 泛型二：表示Map集合的数据类型
-                 * 
-                 * 方法apply： 依次表示流里面的每一个数据
-                 * 方法体： 生成键的代码·
-                 * 返回值： 已经生成键的代码
-                 * 参数一：
-                 * Function泛型一: 表示流中的每一个数据类型
-                 * 泛型二：表示Map集合的数据类型
-                 * 
-                 * 方法apply： 依次表示流里面的每一个数据
-                 * 方法体： 生成值的代码·
-                 * 返回值： 已经生成值的代码
-                 * 
-                 * 
-                 */
+               
                 .collect(Collectors.toMap(new Function<String, String>() {
                     public String apply(String s) {
                         return s.split("-")[0];

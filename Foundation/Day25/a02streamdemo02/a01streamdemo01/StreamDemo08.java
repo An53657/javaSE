@@ -5,7 +5,7 @@ long count()                                    统计
 toarray()                                       收集流中的数据，放到数组当中
 collect(collector , collector)                  收集流中的数据，放到集合当中
  */
-package Day25.a02streamdemo02;
+package Day25.a02streamdemo02.a01streamdemo01;
 
 import java.util.ArrayList;
 import java.util.Collections;

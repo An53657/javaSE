@@ -4,7 +4,7 @@
 2.把“张”开头的，长度为三的元素存储到新集合中
 3.遍历打印最终结果
  */
-package Day25.a02streamdemo02;
+package Day25.a02streamdemo02.a01streamdemo01;
 
 import java.util.ArrayList;
 

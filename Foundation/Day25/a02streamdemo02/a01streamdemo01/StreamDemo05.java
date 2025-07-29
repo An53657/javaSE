@@ -7,7 +7,7 @@
 数组              public static<T> Stream(T[] array)   Array工具类中的静态方法
 一堆零散数据       public static<T> of(T...values)
  */
-package Day25.a02streamdemo02;
+package Day25.a02streamdemo02.a01streamdemo01;
 
 import java.util.stream.Stream;
 

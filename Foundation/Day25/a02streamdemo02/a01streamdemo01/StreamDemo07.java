@@ -9,7 +9,7 @@ Stream<R> map(Function<T,R> mapper)                转换类型
 注意1：中间方法，返回新的Stream流，原来的Stream流只能使用一次，建议使用链式编程
 注意2：修改Stream流中的数据，不会影响原来集合或者数组中的数据
  */
-package Day25.a02streamdemo02;
+package Day25.a02streamdemo02.a01streamdemo01;
 
 import java.util.ArrayList;
 import java.util.Collections;

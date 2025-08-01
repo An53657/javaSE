@@ -3,8 +3,9 @@
 收集Stundnet类型的数组中使用(方法引用完成)
 数据："XX1,25", "XX2,24", "XX3,35", "X4,27", "X5,39", "XX6,31
  */
-package Day25.a03Functiondemo03.Functiondemo01;
 
+
+package a02testdemo02;
 import java.util.ArrayList;
 import java.util.Collections;
 

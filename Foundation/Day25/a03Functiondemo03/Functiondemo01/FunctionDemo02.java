@@ -24,7 +24,6 @@ public class FunctionDemo02 {
         // 用匿名内部类书写
         list.stream().filter(new Predicate<String>() {
             public boolean test(String s) {
-
                 return s.startsWith("张") && s.length() == 3;
             };
         }).forEach(s -> System.out.println("用lambda的匿名内部类书: " + s));

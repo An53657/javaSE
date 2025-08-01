@@ -1,0 +1,17 @@
+/*方法引用的综合练习
+集合中存储一些字符串信息，比如XXX1,23
+收集Stundnet类型的数组中使用(方法引用完成)
+数据："XX1,25", "XX2,24", "XX3,35", "X4,27", "X5,39", "XX6,31
+ */
+package Day25.a03Functiondemo03.Functiondemo01;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class FunctionDemo06 {
+    public static void main(String[] args) {
+        ArrayList<String> list = new ArrayList<>();
+        Collections.addAll(list, "XX1,25", "XX2,24", "XX3,35", "X4,27", "X5,39", "XX6,31");
+
+    }
+}

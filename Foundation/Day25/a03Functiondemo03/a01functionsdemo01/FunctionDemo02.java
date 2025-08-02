@@ -4,7 +4,7 @@
 数据 "张三","李四","王五","张岱","张文武","张文远"
 只要以张开头的，并且名字是三个字的
  */
-package Day25.a03Functiondemo03.Functiondemo01;
+/*package a01functionsdemo01;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -34,3 +34,4 @@ public class FunctionDemo02 {
  
     }
 }
+*/

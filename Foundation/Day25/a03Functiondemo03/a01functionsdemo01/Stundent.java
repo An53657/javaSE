@@ -1,4 +1,4 @@
-package Day25.a03Functiondemo03.Functiondemo01;
+/*package a01functionsdemo01;
 
 public class Stundent {
     private String name;
@@ -39,3 +39,4 @@ public class Stundent {
         return "Actor{name='" + name + "', age=" + age + "}";
     }
 }
+*/

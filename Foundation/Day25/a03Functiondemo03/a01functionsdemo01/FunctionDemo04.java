@@ -16,7 +16,7 @@
 
 第二个参数导最后一个参数，跟被引用的方法的形参保持一致，如果没有第二个形参，说明被用于的方法需要是无参的成方法
  */
-package Day25.a03Functiondemo03.Functiondemo01;
+/*package a01functionsdemo01;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -43,4 +43,4 @@ public class FunctionDemo04 {
         // 拿着流里面的每一个数据，去调用String类中的toUpperCase的方法，方法发返回值就是转换之后的结果
         list.stream().map(String::toUpperCase).forEach(s -> System.out.println(s));
     }
-}
+        */

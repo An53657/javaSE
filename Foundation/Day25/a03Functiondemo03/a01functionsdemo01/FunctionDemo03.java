@@ -11,7 +11,7 @@
     3. 被引用的方法的形参和返回值，需要跟抽象方法的返回值保持一致
     4. 被引用的方法的功能需要满足当前的需求
  */
-package Day25.a03Functiondemo03.Functiondemo01;
+/*package a01functionsdemo01;
  
 import java.util.ArrayList;
 import java.util.Collections;
@@ -42,3 +42,4 @@ public class FunctionDemo03 {
         System.out.println("用方法引用书写: " + newList3);
     }
 }
+    */

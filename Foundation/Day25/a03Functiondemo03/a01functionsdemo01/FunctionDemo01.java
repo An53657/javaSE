@@ -2,7 +2,7 @@
 集合中有以下数字要求把他们变成int类型
 "1", "2" "3" , "4", "5"
  */
-package Day25.a03Functiondemo03.Functiondemo01;
+/*package a01functionsdemo01;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -34,3 +34,4 @@ public class FunctionDemo01 {
 
     }
 }
+*/

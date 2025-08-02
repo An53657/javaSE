@@ -5,7 +5,7 @@ eg:int[] :: new
 练习 集合中有一些整数 收集到数组中
 
  */
-package Day25.a03Functiondemo03.Functiondemo01;
+/*package a01functionsdemo01;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -31,3 +31,4 @@ public class FunctionDemo05 {
 
     }
 }
+*/

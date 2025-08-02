@@ -3,7 +3,7 @@
 如果try中遇到问题没有被捕获，怎么办
 相当于try...catch的代码白写了，最中会交给虚拟机处理，虚拟机默认处理方式
  */
-package Day26.a01exceptiondemo01;
+package Day26.a01exceptiondemo01.exceptiondemo01;
 
 public class ExceptionDemo08 {
     public static void main(String[] args) {

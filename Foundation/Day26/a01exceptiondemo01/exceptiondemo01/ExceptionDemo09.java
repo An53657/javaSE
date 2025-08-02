@@ -4,7 +4,7 @@
 下面的代码就不会在执行了，直接跳转到对应catch当中，执行catch里面的语句体
 当时没有定义的catch与之匹配，那么还是会交给虚拟机进行处理
  */
-package Day26.a01exceptiondemo01;
+package Day26.a01exceptiondemo01.exceptiondemo01;
 
 public class ExceptionDemo09 {
     public static void main(String[] args) {

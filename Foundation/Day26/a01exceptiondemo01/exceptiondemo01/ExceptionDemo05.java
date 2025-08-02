@@ -10,7 +10,7 @@
             目的：当代码出现异常时，可以让代码继续往下执行
 
  */
-package Day26.a01exceptiondemo01;
+package Day26.a01exceptiondemo01.exceptiondemo01;
 
 public class ExceptionDemo05 {
     public static void main(String[] args) {

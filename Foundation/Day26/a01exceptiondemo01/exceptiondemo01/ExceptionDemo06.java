@@ -11,7 +11,7 @@
 注意：
     只有当出现了异常才会执行catch里面的代码
  */
-package Day26.a01exceptiondemo01;
+package Day26.a01exceptiondemo01.exceptiondemo01;
 
 public class ExceptionDemo06 {
     public static void main(String[] args) {

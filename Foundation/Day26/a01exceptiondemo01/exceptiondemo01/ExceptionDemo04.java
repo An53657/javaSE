@@ -3,7 +3,7 @@
 1. 把异常的名称，异常原因及异常出现的位置等信息输出在控制台
 2. 程序停止执行，下面代码不会在执行了
  */
-package Day26.a01exceptiondemo01;
+package Day26.a01exceptiondemo01.exceptiondemo01;
 
 public class ExceptionDemo04 {
     public static void main(String[] args) {

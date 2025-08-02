@@ -6,7 +6,7 @@
 细节
     如果我们要捕获多个异常，这些异常中如果存在父子关系的话，那么父类一定要写在下面
  */
-package Day26.a01exceptiondemo01;
+package Day26.a01exceptiondemo01.exceptiondemo01;
 
 public class ExceptionDemo07 {
 

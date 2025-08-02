@@ -1,5 +1,7 @@
 # 集合进阶(一) advanced-collection(一)
 
+---
+
 ## 1.集合体系结构
 1. 单列结合 Collection
 
@@ -141,6 +143,8 @@
       - 数组：在内存里是一个连续的区域，查询块，增删慢
       - 链表：元素是有离的，查询慢，首尾操作极快】
 
+---
+
 ## 4.ArrayList集合
    - ArrayList集合底层原理
      - 利用空参构造创建集合，在底层创建一个默认长度为0的数组
@@ -162,3 +166,5 @@
            public void getLast(E e )       返回此列表中的最后一个元素
            public void removeFirst(E e )      从此列表中删除并返回第一个元素
            ublic void removeLast(E e )      从此列表中删除并返回最后一个元素
+
+---

@@ -110,8 +110,53 @@
 ---
 
 
-## 2.file
+## 2.File
+16. 路径
+    - 相对路径
+      不带盘符的，相对项目而言
+    - 绝对路径
+      盘符的
 
+17. File
+    - File对象就表示一个路径，可以是文件的路径，也可以是文件夹的路径
+    - 这个路径可以是存在的，也允许是不存在的
+
+18. 构造方法
+
+               方法名称                               说明
+               public File(String pathname)           根据文件路径创建文件对象
+               public File(string parent, String child) 根据父路径名字字符串和子路径字符串创建文件对象
+               public File(File parent, String child)   根据父路径对应文件对象和子路径名字字符串创建文件对象
+
+19. File的常见成员方法(判断，获取)
+
+               方法名称                                 说明
+               public boolean isDirectory()             判断此路径名表示的File是否为文件夹
+               public boolean isFile()                  判断此路径名表示File是否为文件夹
+               public boolean exists()                   判断此路径名表示的File是否存在
+               public long length()                      返回文件的大小(字节数量)
+               public String getAbssolutePath()          返回文件的绝对路径
+               public String getPath()                   返回定义文件时使用的路径
+               public String getName()                   返回文件的名称，带后缀
+               public long lastMoodified()               返回文件的最后的修改时间(毫秒值)
+
+20. File的常见成员方法(创建，删除)
+
+               方法名称                                              说明
+               public boolean createNewFile()                        创建一个新的空的文件
+               public boolean mkdir()                                创建单级文件夹
+               public boolesn mkdirs()                               创建多级文件夹
+               public boolean delete()                               删除文件，空文件夹
+
+21. File常见成员方法(获取并遍历)
+
+             方法名称                                               说明
+             public static File[] listRoots()                       列出可用的文件系统根
+             public String[] list()                          获取当前该路径下的所有内容
+             pulic String[] list(FilenameFilter  filter)            利用文件名过滤器获取当前该路径下所有内容
+             public File[] listFiles()                               获取当前该路径下所有内容
+             public File[] listFiles()
+             public File[] listFiles(FilenameFilter  filter)         利用文件名过滤器获取当前该路径下所有内容
 
 
 

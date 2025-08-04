@@ -1,5 +1,8 @@
 # 面向对象进(一) Advanced object-oriented programming(一)
 
+
+---
+
 ## 一.static
 1. statuc表示静态的意思，是java的修饰符可以修饰成员变量，也可以修饰成员方法
   被static修饰的成员变量，叫静态变量。                   被static修饰的成员方法

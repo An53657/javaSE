@@ -1,5 +1,8 @@
 # 面向对象进(二) Advanced object-oriented programming(二)
 
+
+---
+
 ## 一.多态
 1. 什么是多态？
    同种类型的对象，表现出的不同形态。

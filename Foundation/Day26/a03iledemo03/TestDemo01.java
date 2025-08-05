@@ -9,13 +9,14 @@ import java.io.IOException;
 
 public class TestDemo01 {
     public static void main(String[] args) throws IOException {
-        // 创建File对象
+
+        // 创建a.txt的父级路径
         File file = new File("Foundation\\Day26\\a03iledemo03\\aaa");
 
-        // 创建多级文件
+        // 创建父级路径
         file.mkdirs();
 
-        // 路径拼接
+        // 拼接父级路径和子级路径
         File src = new File(file, "a.tct");
 
         // 创建新的空白文件
@@ -27,5 +28,7 @@ public class TestDemo01 {
         } else {
             System.out.println("创建失败");
         }
+
     }
+
 }

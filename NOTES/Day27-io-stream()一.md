@@ -51,6 +51,14 @@
    
    3. 释放资源
       细节:每次使用完流之后都要是释放资源
+
+9. FileOutStream写数据的三种方式
+
+            方法名                                                 说明
+            void write(int b)                                     一次写一个字节数据
+            void write(byte[] b)                                  一次写一个字节数组数据
+            void write(byte[] b , int off , int len)              一次写一个字节数组的部分数据
+
    
 
 

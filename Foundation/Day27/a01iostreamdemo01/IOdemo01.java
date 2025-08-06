@@ -11,16 +11,16 @@ package Day27.a01iostreamdemo01;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-public class IOdemo01 {
-    public static void main(String[] args) throws IOException {
-        //创建对象
-        FileOutputStream file = new FileOutputStream("Foundation\\Day27\\a01iostreamdemo01\\a.txt");
+public class IoDemo01 {
+  public static void main(String[] args) throws IOException {
+    // 创建对象
+    FileOutputStream file = new FileOutputStream("Foundation\\Day27\\a01iostreamdemo01\\a.txt");
 
-        //写出数据
-        file.write(97);
+    // 写出数据
+    file.write(97);
 
-        //释放资源
-        file.close();
+    // 释放资源
+    file.close();
 
-    }
+  }
 }

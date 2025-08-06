@@ -3,7 +3,7 @@
     定义一个方法找某一个文件夹中是否有以avi的结尾的文件
     (暂时不考虑子文件夹)
  */
-package Day26.a03iledemo03;
+package Day26.a03filedemo03;
 
 import java.io.File;
 

@@ -6,7 +6,7 @@
     先删除文件夹里面的所有内容
     在删除自己
  */
-package Day26.a03iledemo03;
+package Day26.a03filedemo03;
 
 import java.io.File;
 

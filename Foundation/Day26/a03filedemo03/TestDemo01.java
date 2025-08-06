@@ -2,7 +2,7 @@
 需求
     在当前文件夹下的aaa文件夹中创建a.txt
  */
-package Day26.a03iledemo03;
+package Day26.a03filedemo03;
 
 import java.io.File;
 import java.io.IOException;

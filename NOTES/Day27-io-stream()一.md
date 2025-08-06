@@ -59,6 +59,15 @@
             void write(byte[] b)                                  一次写一个字节数组数据
             void write(byte[] b , int off , int len)              一次写一个字节数组的部分数据
 
+10. FileoutputStream总结
+    - FileOutputStream的作用
+      可以把程序中的数据写到本地文件上，是字节流的基本流
+    - 书写步骤
+      创建对象，写出数据，释放文件
+    - 三步操作的细节
+      创建对象: 文件存在，文件不存在，追加写入
+      写出数据: 写出整数，写出字节数组，换行写
+      释放资源: 关闭通道f
    
 
 

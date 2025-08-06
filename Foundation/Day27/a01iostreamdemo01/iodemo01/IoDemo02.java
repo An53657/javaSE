@@ -7,7 +7,7 @@ void write(byte[] b , int off , int len)              一次写一个字节数�
           int off 指定索引写入
           int len 写入的个数
  */
-package Day27.a01iostreamdemo01;
+package Day27.a01iostreamdemo01.iodemo01;
 
 import java.io.FileOutputStream;
 import java.io.IOException;

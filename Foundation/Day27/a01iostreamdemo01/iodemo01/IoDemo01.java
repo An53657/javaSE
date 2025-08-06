@@ -6,7 +6,7 @@
     2. 写数据
     3. 释放资源
  */
-package Day27.a01iostreamdemo01;
+package Day27.a01iostreamdemo01.iodemo01;
 
 import java.io.FileOutputStream;
 import java.io.IOException;

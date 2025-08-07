@@ -23,12 +23,12 @@
 
 
  */
-package Day27.a01iostreamdemo01.iodemo01;
+package Day27.a01bytestreamdemo01;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-public class IoDemo03 {
+public class ByteDemo03 {
     public static void main(String[] args) throws IOException {
         // 创建FileOutputStream对象
         FileOutputStream fos = new FileOutputStream("Foundation\\Day27\\a01iostreamdemo01\\a.txt", true);

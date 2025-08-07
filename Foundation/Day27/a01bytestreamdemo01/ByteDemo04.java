@@ -29,13 +29,13 @@
 
 
  */
-package Day27.a01iostreamdemo01.iodemo02;
+package Day27.a01bytestreamdemo01;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-public class IoDemo01 {
+public class ByteDemo04 {
     public static void main(String[] args) throws IOException {
         FileOutputStream fox = new FileOutputStream("Foundation\\Day27\\a01iostreamdemo01\\iodemo02\\a.txt");
         FileInputStream file = new FileInputStream("Foundation\\Day27\\a01iostreamdemo01\\iodemo02\\a.txt");

@@ -6,12 +6,12 @@
     2. 写数据
     3. 释放资源
  */
-package Day27.a01iostreamdemo01.iodemo01;
+package Day27.a01bytestreamdemo01;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-public class IoDemo01 {
+public class ByteDemo01 {
   public static void main(String[] args) throws IOException {
     // 创建对象
     FileOutputStream file = new FileOutputStream("Foundation\\Day27\\a01iostreamdemo01\\a.txt");

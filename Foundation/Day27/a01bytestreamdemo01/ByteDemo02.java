@@ -7,12 +7,12 @@ void write(byte[] b , int off , int len)              一次写一个字节数�
           int off 指定索引写入
           int len 写入的个数
  */
-package Day27.a01iostreamdemo01.iodemo01;
+package Day27.a01bytestreamdemo01;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-public class IoDemo02 {
+public class ByteDemo02 {
     public static void main(String[] args) throws IOException {
         // 创建FileOutStrea对象
         FileOutputStream fos = new FileOutputStream("Foundation\\Day27\\a01iostreamdemo01\\a.txt");

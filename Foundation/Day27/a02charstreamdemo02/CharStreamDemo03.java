@@ -23,33 +23,25 @@
           public int close()                        释放资源/关流
 
  */
-package Day27.a02charsetdemo02;
+package Day27.a02charstreamdemo02;
 
 import java.io.FileReader;
 import java.io.IOException;
 
-public class CharSetDemo02 {
+public class CharStreamDemo03 {
     public static void main(String[] args) throws IOException {
-        // 创建FileReader对象
         FileReader fr = new FileReader("Foundation\\Day27\\a02charsetdemo02\\a.txt");
 
-        /*
-         * 读取数据 read()
-         * 字符流底层也是字节流 默认也是一个字节一个字节读的
-         * 如果遇到中文就会一次读多个GBK一次读两个字节，UTF-8一次读三个字节
-         * 
-         * read() 细节
-         * read() 默认也是一个字节一个字节读取的，如果遇到中文就会一次读多个
-         * 最终这个十进制作为返回值
-         * 这个十进制的数据也表示在字符集上的数字
-         */
-        // 读取
-        int ch;
-        while ((ch = fr.read()) != -1) {
-            System.out.print(ch);
+        // read(char) 读取数据，解码 ，强转三步合并了 把强转之后的字符放到数组当中
+        // 相当于空参read() + 强制类型转换
+        char[] chars = new char[4];
+        int len;
+        while ((len = fr.read(chars)) != -1) {
+            System.out.println(new String(chars, 0, len));
+
         }
 
-        // 关流
         fr.close();
+
     }
 }

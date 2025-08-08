@@ -158,10 +158,50 @@
                成员方法                                  说明
                public int close()                        释放资源/关流
 
+20. FileWriter构造方法
+    
+               构造方法                                                说明
+               public FileWriter(File file)                           创建字符输出流关联本地文件
+               public FileWriter(String pathname)                     创建字符输出流关联本地文件
+               public FileWriter(File file , boolean append)          创建字符输出流关联本地文件，打开续写
+               public FileWriter(String pathname , boolean append)    创建字符输出流关联本地文件，打开续写
 
+21. FileWriter成员方法
+               
+               成员方法                                                说明
+               void writer(int c)                                     写出一个字符
+               void writer(String str)                                写出一个字符串
+               void writer(String str , int off , int len)            写出字符串的一部分
+               void writer(char[] cbuf)                               写出一个字符数组
+               void writer(char[] cbuf , int off , int len)           写出字符数组的一部分
 
+22. FileWriter书写细节
+    - 创建创建字符输出流的对象
+      细节1：参数是字符串表示的路径或是File对象都是可以的
+      细节2：如果文件不存在会创建一个新的文件，但是要保持父级路径是存在的
+      细节3：如果文件已存在，则会清空文件，如果不想清空可以打开续写开关
 
+    - 写数据
+      细节：如果writer方法参数是整数，但是实际上写到本地文件中的是整数在字符集上对于的字符
 
+    - 释放资源
+      细节：每次使用完流都要释放资源
+
+23. 字符输入流 读取原理  字符流分析原理
+     - 创建字符输入流对象
+       底层：关联文件，并创建缓冲区(长度8192的字节数组)
+
+     - 读取数据
+       底层：1.判断缓冲区中是否有数据可以被读取
+             2.缓冲区没有数据：就从文件中获取数据，装到缓冲区，每次尽可能装满缓冲区，
+             如果文件中也没听数据了，返回-1
+             3.缓冲区有数据：就从缓冲区读取
+           空参read方法：一次读取一个字节，遇到中文一次读多个字节，把字节解码并转成十进制返回
+           有参的read方法：把读取字节，解码，强转合并了 强转之后的字节放到数组中
+
+24. 字节流和字符流使用场景
+    - 字节流：拷贝任意类型的文件
+    - 字符流：读取纯文本文件中的数据，往纯文本文件中写出数据
 
 
 ---

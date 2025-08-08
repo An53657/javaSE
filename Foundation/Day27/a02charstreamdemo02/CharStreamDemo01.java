@@ -12,12 +12,12 @@ java中编码的方法
  public(byte[] bytes)                           使用默认方式进行解码
  String(byte[] bytes , String charsetName)      使用指定方式进行解
  */
-package Day27.a02charsetdemo02;
+package Day27.a02charstreamdemo02;
 
 import java.io.UnsupportedEncodingException;
 import java.util.Arrays;
 
-public class CharSetDemo01 {
+public class CharStreamDemo01 {
     public static void main(String[] args) throws UnsupportedEncodingException {
         String str1 = "a 啊";
         // public byte[] getByte() 使用默认方式进行编码

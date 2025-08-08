@@ -18,10 +18,12 @@ public class TestDemo01 {
     public static void main(String[] args) throws IOException {
         long start = System.currentTimeMillis();
         // method1();
-        method2();
+        // method2();
+        method3();
+        // method4();
 
-        long emd = System.currentTimeMillis();
-        System.out.println((start - emd) / 1000.0 + "秒");
+        long end = System.currentTimeMillis();
+        System.out.println((end - start) / 1000.0);
 
     }
 

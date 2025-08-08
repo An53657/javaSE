@@ -3,8 +3,21 @@
  */
 package Day28.a01bufferflowdemo01.a03testdemo03;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.util.ArrayList;
+
 public class TestDemo02 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
+        BufferedReader br = new BufferedReader(new FileReader("E:\\test\\eee\\csb.txt"));
         
+        ArrayList<String> list = new ArrayList<>();
+        String line ;
+        while ((line = br.readLine()) != null) {
+            list.add(line);
+        }
+        br.close();
+
+        list.forEach(s -> System.out.println(s));
     }
 }

@@ -160,7 +160,7 @@
             public void print(Xxx xx)                                                            特有方法：打印任意数据，不换行
             public void printf(String format, Object...args)                                      特有方法：带有占位符的打印语句，不换行  
 
- 
+
 23. 字符打印流构造方法
 
             构造方法                                                                            说明
@@ -177,14 +177,27 @@
             public void prinln(Xxx,xx)                                                           特有方法：打印任意数据，自动刷新，自动换行
             public void print(Xxx xx)                                                            特有方法：打印任意数据，不换行
             public void printf(String format, Object...args)                                      特有方法：带有占位符的打印语句，不换行  
- 
+
+25. 总结
+    1. 打印流有几种，各有什么特点
+       - 有字节打印流和字符打印流两种
+       - 打印流不操作数据源，只能操作目的地
+       - 字节打印流：默认自动刷新，特有的println自动换行
+       - 字符打印流：自动刷新需要开启，特有的println自动换行
 
 
 ---
 
-
-
 ## 5.压缩流
+
+---
+
+![解压缩流](C:\Users\kelly\Pictures\Screenshots\屏幕截图 2025-08-09 183824.png)
+
+---
+
+26. 解压的本质：把每一个zipEntry按照层级拷贝到本地另一个文件夹中
+27. 压缩的本质：把每一个(文件/文件夹)看成ZipEntry对象放大压缩包中
 
 
 

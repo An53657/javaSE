@@ -28,7 +28,7 @@
    
                 字符缓冲输入流特有的方法                             说明
                 public String readLine()                           读取一行数据，如果没有数据可读了，方法返回null
-              
+                  
                 字符缓冲输出流特有方法                               说明
                 public newLine()                                    跨平台换行
 
@@ -126,10 +126,58 @@
 
 
 
-
 ## 4.打印流
 
 
+
+![打印流](C:\Users\kelly\Pictures\Screenshots\屏幕截图 2025-08-09 152240.png)
+
+19. 打印流的分类
+    - 字节打印流 PrintStream
+    - 字符打印流 PrintWrite
+
+20. 打印流特点
+    - 特点1：打印流只操作文件目的地，不操作数据源
+    
+    - 特点2：特有的写出方法可实现，数据原样写出
+
+    - 特点3：特有的写出方法，可以实现自动刷新，自动换行
+
+21. 字节打印流构造方法
+
+            构造方法                                                                             说明
+            public PrintStream(OutStream/File/String)                                           关联字节输出流/文件/文件路径
+            public PrintStream(String fileName , charset charset)                               指定字字符编码
+            public PrintStream(OutputStream out , boolean autoFlush)                            自动刷新
+            public PrintStream(OutputStream out , boolean autFlush , String encoding)           指定字符编码且自动刷新
+            字节打印流是没有缓冲区的，开不开自动刷新都一样
+
+22. 字节打印流的成员方法
+
+            成员方法                                                                              说明
+            public void write(int b)                                                             常规方法：规则跟之前一样，将指定的字节写出
+            public void prinln(Xxx,xx)                                                           特有方法：打印任意数据，自动刷新，自动换行
+            public void print(Xxx xx)                                                            特有方法：打印任意数据，不换行
+            public void printf(String format, Object...args)                                      特有方法：带有占位符的打印语句，不换行  
+
+ 
+23. 字符打印流构造方法
+
+            构造方法                                                                            说明
+            public PrintWrite(write/File/String)                                               关联字节输出流/文件/文件路径
+            public PrintWrite(String fileName , charset charset)                               指定字字符编码
+            public PrintWrite(Write  w , boolean autoFlush)                                    自动刷新
+            public PrintWrite(OutputStream out , boolean autFlush , String encoding)           指定字符编码且自动刷新
+            字符流有缓冲区 要手动开启
+
+24. 字符打印流的成员方法
+
+            成员方法                                                                              说明
+            public void write(int b)                                                             常规方法：规则跟之前一样，将指定的字节写出
+            public void prinln(Xxx,xx)                                                           特有方法：打印任意数据，自动刷新，自动换行
+            public void print(Xxx xx)                                                            特有方法：打印任意数据，不换行
+            public void printf(String format, Object...args)                                      特有方法：带有占位符的打印语句，不换行  
+ 
 
 
 ---

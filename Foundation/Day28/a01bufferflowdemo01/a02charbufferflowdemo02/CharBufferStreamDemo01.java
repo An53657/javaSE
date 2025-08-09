@@ -4,7 +4,7 @@ public BufferedReader(Reader r)                    把基本流变成高级流
 //特有方法
 public String readLine()                           读取一行数据，如果没有数据可读了，方法返回null
  */
-package Day28.a01bufferflowdemo01.a02charbufferstreamdemo02;
+package Day28.a01bufferflowdemo01.a02charbufferflowdemo02;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

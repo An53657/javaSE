@@ -4,7 +4,7 @@ public BufferedReader(Write r)                     把基本流变成高级流
 //特有方法
 public newLine()                                    跨平台换行
  */
-package Day28.a01bufferflowdemo01.a02charbufferstreamdemo02;
+package Day28.a01bufferflowdemo01.a02charbufferflowdemo02;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

@@ -4,7 +4,7 @@
  public BufferdOutputStream(outStream os)          把基本流包装成高级流，提高写出性能
 
  */
-package Day28.a01bufferflowdemo01.a01bytebufferstreamdemo01;
+package Day28.a01bufferflowdemo01.a01bytebufferflowdemo01;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;

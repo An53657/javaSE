@@ -6,7 +6,8 @@
 4.字节缓存流    ：一次读写多个字节
 
  */
-package Day28.a01bufferflowdemo01.a03testdemo03;
+package Day28.a01bufferflowdemo01.a03charbufferstreamtestdemo03;
+
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;

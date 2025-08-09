@@ -7,7 +7,8 @@
   第三次运行控制台输出：欢迎使用本软件，第三次使用免费
   第四次运行控制台输出：本软件只能免费使用三次，欢迎你注册会员后继续使用
  */
-package Day28.a01bufferflowdemo01.a03testdemo03;
+package Day28.a01bufferflowdemo01.a03charbufferstreamtestdemo03;
+
 
 public class TestDemo03 {
     public static void main(String[] args) {

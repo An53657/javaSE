@@ -72,9 +72,27 @@
 
 
 ## 4.常见的成员方法
+9. 常见的成员方法
+   
+                    方法名称                            说明
+                    String getName()                   返回此线程的名字
+                    void setName(String name)          设置线程名称(构造方法也可以设置名称)
+                    static Thread currentThread()      获取当前线程的对象
+                    static void sleep(long time)       让线程休眠指定时间(单位 毫秒值)
+                    setPriority(int newPriority)        设置线程优先级
+                    final int getPriority()             获取线程的优先级
+                    final void setDaemon(boolean on)    设置位守护线程
+                    public static void yield()          出让线程/礼让线程
+                    public static void join()           插入线程/插队线程
 
 
 
+
+---
+
+10. 线程生命周期
+
+   ![线程生命周期](C:\Users\kelly\Pictures\Screenshots\屏幕截图 2025-08-10 165621.png)
 
 ---
 

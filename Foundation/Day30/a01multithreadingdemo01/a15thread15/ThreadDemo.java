@@ -30,5 +30,8 @@ public class ThreadDemo {
                 Executors.defaultThreadFactory(), // 创建线程的方式 (不能为null)
                 new ThreadPoolExecutor.AbortPolicy()); // 要执行的任务过多时的解决方案 (不能为null)
         pool.shutdown();
+
+        // 向java虚拟机返回可用的处理器数目
+        System.out.println(Runtime.getRuntime().availableProcessors());
     }
 }

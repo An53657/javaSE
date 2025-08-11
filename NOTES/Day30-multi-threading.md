@@ -129,24 +129,35 @@
 
 
 ## 6.死锁
-
-
+15. 锁的嵌套
 
 ---
-
-
 
 ## 7.生产者和消费者
-
-
+16. 生产者和消费者(等待唤醒机制)
 
 ---
 
+    ![生产者和消费者(等待唤醒机制)](C:\Users\kelly\Pictures\Screenshots\屏幕截图 2025-08-11 103030.png)
 
+---
+
+17. 常见方法
+    
+            方法名称                                说明
+            void wait()                             当前线程等待，直到被其他线程唤醒
+            void notify()                           随机唤醒单个线程
+            void notifyAll()                        唤醒所有线程
+
+---
 
 ## 8. 线程的状态
 
+---
 
+![线程状态0](C:\Users\kelly\Pictures\Screenshots\屏幕截图 2025-08-11 131044.png)
+
+![线程状态1](C:\Users\kelly\Pictures\Screenshots\屏幕截图 2025-08-11 131310.png)
 
 ---
 

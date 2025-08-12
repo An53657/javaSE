@@ -13,3 +13,4 @@
 [java教程]( https://www.bilibili.com/video/BV17F411T7Ao/?spm_id_from=333.1387.favlist.content.click&vd_source=6c942b16cbc2fc956585136ac4ffc82b )
 [java api 在线查询]( https://doc.qzxdp.cn/jdk/17/zh/api/index.html)
 [相关笔记](https://github.com/An53657/NOTE)
+[自学指南](https://github.com/cunyu1943/JavaPark?tab=readme-ov-file)

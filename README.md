@@ -15,3 +15,4 @@
 [java api 在线查询]( https://doc.qzxdp.cn/jdk/17/zh/api/index.html)
 [相关笔记](https://github.com/An53657/NOTE)
 [自学指南](https://github.com/cunyu1943/JavaPark?tab=readme-ov-file)
+[java se 基础笔记](https://blog.csdn.net/weixin_41043145/article/details/97905949)

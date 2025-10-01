@@ -5,4 +5,8 @@
         <name>zhangsan</name>
         <afe>23</afe>
     </stundent>
+    <stundent id = "2">
+        <name>waneu</name>
+        <age>25</age>
+    </stundent>
 </stundent>

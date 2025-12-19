@@ -6,6 +6,9 @@
 历经4个多月的时间基本把java的基础语法基本学完
 
 ---
+# 思维导图
+![JAVA](https://github.com/An53657/javaSE/blob/main/imgs/picture/JAVA.jpg)
+---
 
 ## 鸣谢 && 引用资料
 
